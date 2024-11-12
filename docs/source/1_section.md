@@ -25,17 +25,18 @@ used to investigate air-sea interaction processes related to climate
 variability.
 
 The original mooring system is described in the mooring deployment/recovery
-cruise reports {cite}`Plueddemann2006, Whelan2007, Whelan2008,Whelan2008,Whelan2010,Santiago-Mandujano2019,Hasbrouck2019,Santiago-Mandujano2021,Santiago-Mandujano2022`.
+cruise reports {cite}`Plueddemann2006, Whelan2007, Whelan2008, Whelan2010,
+Santiago-Mandujano2022, Santiago-Mandujano2024` .
 Briefly, a Surlyn foam surface buoy is equipped with meteorological
 instrumentation, including two complete Air-Sea Interaction Meteorological
 (ASIMET) systems, measuring air and sea surface temperatures, relative humidity,
-barometric pressure, wind speed and direction, incoming shortwave and longwave
+barometric pressure, wind speed and direction, incoming shortwave and long wave
 radiation, and precipitation {cite}`Hosom1995, Colbo2009`. Complete surface
 meteorological measurements are recorded every minute, as required to compute
 air-sea fluxes of heat, freshwater, and momentum. Each ASIMET system also
 transmits hourly averages of the surface meteorological variables via the Argos
 satellite system. The mooring line is instrumented to collect time series of
-upper ocean temperatures, velocities, and salinities coincident with the
+upper ocean temperature, velocity, and salinity coincident with the
 surface forcing record. This mooring includes conductivity, salinity and
 temperature recorders, two Vector Measuring Current Meters (VMCMs), and two
 Acoustic Doppler current profilers (ADCPs). See the WHOTS-18 mooring diagram in
