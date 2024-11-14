@@ -40,8 +40,8 @@ across multiple environmental parameters.
 
 Five internally logging Sea-Bird SBE-56 temperature sensors were bolted to the
 buoy hull's underside, measuring sea surface temperature (SST). The SBE-56
-sensors measured SST every 60 seconds at different depths ranging between 0.80
-m and 1.10 m below the buoy deck. Two SBE-37 MicroCATs were at 1.55m measuring
+sensors measured SST every 60 seconds at different depths ranging between 80-110cm
+below the buoy deck. Two SBE-37 MicroCATs were at 1.55m measuring
 at every 300s (See {numref}`table-7`).
 
 ```{table} WHOTS-18 MicroCAT and SBE-56 Temperature Sensor Information.
