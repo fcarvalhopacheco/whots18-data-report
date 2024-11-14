@@ -79,7 +79,7 @@ deployed on June 17, 2023, during the
 recovered on June 06, 2024.
 
 This report documents and describes the oceanographic observations made on the
-WHOTS-18 mooring for nearly one year and ten months and from shipboard
+WHOTS-18 mooring for nearly eleven months and from shipboard
 measurements during the two cruises when the mooring was deployed and
 recovered. Sections
 {ref}`II</2_section.md#description-of-the-WHOTS-18-mooring-cruises>` and
@@ -90,7 +90,7 @@ shipboard ADCP data collected during these cruises are described in Section
 {ref}`IV</4_section.md#WHOTS-18-19-cruise-shipboard-observations>`. Section
 {ref}`V</5_section.md#moored-instrument-observations>` includes the processing
 procedures for the data collected by the moored instruments:
-{ref}`SeaCATs, MicroCATs</5_section.md#microcat-data-processing-procedures>`,
+{ref}`MicroCATs</5_section.md#microcat-data-processing-procedures>`,
 {ref}`Moored ADCPs</5_section.md#acoustic-doppler-current-profiler>` and
 {ref}`VMCM</5_section.md#vector-measuring-current-meter-vmcm>`. Plots of the
 resulting data and preliminary analysis are presented in Section
