@@ -50,12 +50,11 @@ WHOTS-17 mooring before recovery. The yo-yo casts were started about 0.25 nm
 from the buoys with varying drift during each cast, and consisted of 5 up-down
 cycles between near the surface and 203 to 210 m. The first set of T, C and O2
 sensors displayed bad data during various casts, apparently due to problems
-with the cable termination, but the second sensors set displayed good data as
-shown in the plots.
+with the cable termination, but the second sensors set displayed good data.
 
 Between 3 and 4 water samples were taken from all casts, except from Station 52
 casts 2, 3 and 4, in which the pylon failed to communicate with the CTD. These
-samples were to be analyzed for salinity at UH and used to calibrate the CTD
+samples were analyzed for salinity at UH and used to calibrate the CTD
 conductivity sensors.
 
 ```{table} CTD stations occupied during the WHOTS-18 cruise (Datetime is in mm/dd/yyyy hh:mm)
@@ -112,16 +111,8 @@ bow of the ship, forward from the starboard side bow thruster at a depth of 3m.
 The system has a flow meter in the chemistry lab, showing a flow rate of
 about 1.1 liter/minute during the cruise. Only the SBE-45 has a debubbler.
 Salinity water samples were taken every 8 hours from the exhaust in the
-Chemistry lab using 0.25 litter glass bottles, to be measured in the
-UH lab to correct for any drift in the thermosalinograph conductivities.
-
-Both thermosalinographs exhibited a number of conductivity and temperature
-glitches due to air going into the plumbing. The temperature differences
-between the SBE-45 and SBE-21 were between -0.2 and 0.0 °C, and the salinity
-difference (disregarding the large glitches) was between -0.04 and 0.02 g/kg.
-These instruments’ conductivities will be calibrated against the bottle samples
-collected during the cruise, 18 and the bad data will be flagged. A diurnal
-cycle is apparent in the temperature and conductivity.
+Chemistry lab using 0.25 litter glass bottles, measured in the
+UH lab and used to correct for any drift in the thermosalinograph conductivities.
 
 ## WHOTS-19 Cruise: WHOTS-18 Mooring Recovery
 
@@ -170,7 +161,7 @@ with subsurface instruments from WHOTS-18 mooring before recovery. The yo-yo
 casts started at about 0.25 nm from the buoys with varying drifts during each
 cast, and they consisted of 5 updown cycles near the surface and 200 to 215 m.
 CTD modulo errors started appearing during casts 3 and 4, indicating problems
-in communication between the CTD and the deck box (Figs. B1-B3). The number of
+in communication between the CTD and the deck box. The number of
 modulo errors considerably increased at the start of casts conducted near the
 WHOTS-19 mooring, and those casts were aborted. The errors persisted after
 re-terminating the CTD wire connection and even after replacing the CTD with
@@ -179,7 +170,7 @@ were not able to conduct CTD casts near the WHOTS-19 mooring because of this
 problem.
 
 Between 2 and 4 water samples were taken from all casts. These samples
-were to be analyzed for salinity at UH and used to calibrate the CTD
+were analyzed for salinity at UH and used to calibrate the CTD
 conductivity sensors.
 
 ```{table} CTD stations during the WHOTS-19 cruise (WHOTS-18 mooring recovery). Datetime is in UTC (mm/dd/yy hh:mm).
@@ -232,5 +223,5 @@ forward from the starboard side bow thruster at a depth of 3 m. The system has
 a flow meter in the chemistry lab, showing a flow rate of about 1.1
 liter/minute during the cruise. Only the SBE-45 has a debubbler. Salinity water
 samples were taken every 8 hours from the exhaust in the Chemistry lab using
-0.25 litter glass bottles to be measured in the UH lab to correct for any drift
-in the thermosalinograph conductivities.
+0.25 litter glass bottles, measured in the UH lab and used to correct for any
+drift in the thermosalinograph conductivities.
