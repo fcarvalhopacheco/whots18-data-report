@@ -40,65 +40,54 @@ procedures are described in this section.
 
 ### Internal Clock Check and Missing Samples
 
-```{warning} **FSM PLEASE CHECK HERE** -->
-
 Before the WHOTS-18 mooring deployment and after its recovery (before the data
 logging was stopped), the MicroCATs temperature sensors were placed in contact
 with an ice pack to create a spike in the data, to check for any problems with
 their internal clocks, and for possible missing samples ({numref}`table-8`).
-However, it was found after recovery that all the instruments had stopped
-logging data due to battery drainage, except for the deep instruments. The cold
-spike before deployment was detected by a sudden decrease in temperature. For
-all the instruments, the clock time of this event matched the time of the spike
-(within the sampling interval of each instrument) correctly. No missing samples
-were detected for any of the devices.
-```
+The cold spikes deployment were detected by a sudden decrease in temperature. For all the
+instruments, the clock time of this event matched the time of the spike (within
+the sampling interval of each instrument) correctly. No missing samples were
+detected for any of the devices.
 
 ### Pressure Drift Correction and Pressure Variability
 
-```{warning} **FSM PLEASE CHECK HERE** -->
-
 Some MicroCATs used in the moorings were outfitted with pressure sensors
-({numref}`mooring_subsurface`). Biases were detected in the pressure sensors by
+({numref}`table-8`). Biases were detected in the pressure sensors by
 comparing the on-deck pressure readings (which should be zero for standard
-atmospheric pressure at sea level of 1029 mbar) before deployment and after
-recovery. {numref}`table-15` shows the magnitude of the bias for each of the
-sensors before and after deployment. To correct this offset, a linear fit
-between the initial and final on-deck pressure offset as a function of time was
-obtained and subtracted from each sensor. Only three of the deep instruments
-registered on-deck pressure after recovery, all other instruments stopped
-recording data before recovery due to battery drainage. For these last
-instruments only a before-deployment pressure bias correction was applied.
-{numref}`figure5.1` shows the linearly corrected pressures measured by the
-MicroCATs located above 200 m during the WHOTS-18 deployment. For all these
-sensors, the mean difference from the nominal instrument pressure (based on the
-deployed depth) was less than 1.2 dbar. The standard deviation of the pressure
-for the duration of the record was less than 1 dbar for all sensors, with the
-deeper sensors showing a slightly larger standard deviation. The range of
-variability for all sensors was about ± 3 dbar.
+atmospheric pressure at sea level of 1029 mbar) before deployment and after recovery.
+{numref}`table-15` shows the magnitude of the bias for each of the sensors
+before and after deployment. To correct this offset, a linear fit between the
+initial and final on-deck pressure offset as a function of time was obtained
+and subtracted from each sensor.
+{numref}`figure5.1` shows the linearly
+corrected pressures measured by the MicroCATs located above 200 m during the
+WHOTS-18 deployment. For all these sensors, the mean difference from the
+nominal instrument pressure (based on the deployed depth) was less than 0.6
+dbar. The standard deviation of the pressure for the duration of the record was
+less than 1 dbar for all sensors, with the deeper sensors showing a slightly
+larger standard deviation. The range of variability for all sensors was about ±
+3 dbar.
 
 The causes of pressure variability can be several, including density variations
 in the water column above the instrument; horizontal dynamic pressure (not only
 due to the currents but also due to the motion of the mooring); mooring
 position {cite}`Santiago-Mandujano2007`.
-```
 
-```{table} Pressure bias of MicroCATs with pressure sensors for WHOTS-18. All the instruments with a NA pressure bias ended recording before recovery. SN = Sea-bird Serial Number; BBD = Bias Before Deployment (dbar); BAR = Bias After Recovery (dbar)
+```{table} Pressure bias of MicroCATs with pressure sensors for WHOTS-18. SN = Sea-bird Serial Number; BBD = Bias Before Deployment (dbar); BAR = Bias After Recovery (dbar)
 :class: sd-m-auto
 :align: center
 :name: table-15
+
 | **Depth (m)** | **SN** | **BBD(dbar)** | **BAR(dbar)** |
-|:-------------:|:------:|:-------------:|:-------------:|
-|    **45**     |  6887  |     0.07      |      NA       |
-|    **95**     |  3670  |     -1.2      |      NA       |
-|    **105**    |  6889  |      0.1      |      NA       |
-|    **120**    |  6890  |     0.11      |      NA       |
-|    **135**    |  6888  |     0.12      |      NA       |
-|    **155**    |  6891  |     0.07      |      NA       |
-|   **1875**    |  3639  |     -0.04     |      NA       |
-|   **1875**    | 12242  |      0.1      |      0.9      |
-|   **4713**    | 11391  |      0.5      |       2       |
-|   **4713**    | 12241  |      0.4      |      1.5      |
+| :-----------: | :----: | :-----------: | :-----------: |
+|    **45**     |  6887  |     0.00      |     -0.19     |
+|    **95**     |  3670  |     -1.28     |     -1.80     |
+|    **105**    |  6889  |     0.02      |     -0.12     |
+|    **120**    |  6890  |     0.02      |     -0.05     |
+|    **135**    |  6888  |     -0.07     |     -0.17     |
+|    **155**    |  6891  |     -0.02     |     -0.09     |
+|   **4710**    | 11391  |     0.65      |     1.87      |
+|   **4710**    | 12241  |     0.47      |     1.10      |
 ```
 
 ```{figure} figures/microcats/w18pbias_a.png
@@ -111,12 +100,9 @@ WHOTS-18 deployment. The horizontal dashed line is the sensor’s nominal
 pressure, based on deployed depth. The text on the left (right) side of the
 figure indicates the mean (standard deviation) of the difference between each
 instrument’s pressure and nominal pressure.
-
 ```
 
 ### Temperature Sensor Stability
-
-```{warning} **FSM PLEASE CHECK HERE** -->
 
 The MicroCAT temperature sensors were calibrated at Sea-Bird before and after
 each deployment, and their annual drift evaluations based on these calibrations
@@ -124,22 +110,17 @@ are shown in {numref}`table-14`. These values turned out to be insignificant (
 not higher than 0.002 °C) for all sensors. Comparisons between the MicroCAT and
 CTD data from casts conducted near the mooring during HOT cruises confirmed
 that the rest of the moored instruments' temperature drift was insignificant.
-The two MicroCATs (SN 11391 and SN 12241) deployed near the bottom were drift
+The temperatures from the two MicroCATs (SN 11391 and SN 12241) deployed near
+the bottom were drift
 corrected. {numref}`figure5.7` (upper panel) shows the temperature differences
 between both instruments before and after the correction. After the correction,
 the temperature differences were in the ±0.001 °C range.
-
-**FSM PLEASE CHECK** --> */home/helu/export/aina1/whots/18/mcat/Readme_whots18.txt
-and the plot w18tcompare_1.png. The serial number is different (72/74?). Let
-me know which serial number is correct and i will update the text.*
 
 Temperature comparisons between one of the WHOTS-18 near-surface MicroCAT
 (SN 1834) and the four SBE-56 surface temperature sensors in the buoy hull
 {numref}`table-7` are shown in {numref}`figure5.2`. All the SBE-56 instruments
 returned full records, and none of them show any obvious bias compared to the
 Microcat measurements.
-
-```
 
 ```{figure} figures/microcats/w18tcompare_1.png
 :height: 1000px
@@ -159,45 +140,39 @@ conducted to evaluate the temperatures from those sensors.
 
 #### Comparisons with VMCM and ADCP temperature sensors
 
-```{warning} **FSM PLEASE CHECK HERE** -->
-
 The upper panel of {numref}`figure5.3` shows the difference between the 10-m
 VMCM and the 7-m MicroCAT temperatures during WHOTS-18, after adding a 0.0239°C
-offset correction to the VMCM. The offset was the mean difference between the
-uncorrected VMCM and the 7-m MicroCAT data. Also shown for comparison in the
-middle panel of the figure are the corrected VMCM temperature differences from
-the 15 m MicroCAT. The VMCM temperatures had a 0.04 °C offset in April 2020.
-The lower panel shows the temperature fluctuations in the differences between
-the 7 and 15-m MicroCATs, which seem to be around zero.
-```
+offset correction to the VMCM. The offset was the mean difference between
+the uncorrected VMCM and the 7-m MicroCAT data. Also shown for comparison in
+the middle panel of the figure are the corrected VMCM temperature differences
+from the 15 m MicroCAT. The lower panel shows the temperature fluctuations in the differences
+between the 7 and 15-m MicroCATs, which seem to be around zero.
 
 Temperature differences between the 30-m VMCM and the temperatures from
-adjacent MicroCATs at 25 and 40-m during WHOTS-18 are shown in
-{numref}`figure5.4` after adding a 0.019197°C offset correction to the VMCM. The
+adjacent MicroCATs at 25 and 35-m during WHOTS-18 are shown in
+{numref}`figure5.4` after adding a 0.0192°C offset correction to the VMCM. The
 offset was the mean difference between the uncorrected VMCM and the 25-m
 MicroCAT data. For comparison, the differences between the MicroCATs
 temperatures are also shown in the lower panel.
 
-```{warning} **FSM PLEASE CHECK HERE - cant find the figure 5.5 and 5.6 in the 18/mcat** -->
-
-
 Temperature differences between the 47.5-m ADCP and the temperatures from
 adjacent MicroCATs at 45 and 50-m during WHOTS-18 are shown in
 {numref}`figure5.5`. The ADCP failed and stopped collecting data on February
-02, 2023 (see {ref}`/3_section.md#description-of-whots-18-mooring`). For
+10, 2023 (see {ref}`/3_section.md#description-of-whots-18-mooring`). For
 comparison, the differences between the MicroCATs temperatures are also
 shown in the lower panel.
 
 Temperature differences between the 125-m ADCP and the temperatures from
 adjacent MicroCATs at 120 and 135-m during WHOTS-18 are shown in
-{numref}`figure5.6`. For comparison, the differences between the MicroCATs
+{numref}`figure5.6`. The ADCP failed and stopped collecting data on January
+24, 2023 (see {ref}`/3_section.md#description-of-whots-18-mooring`)
+For comparison, the differences between the MicroCATs
 temperatures are also shown in the lower panel. It is difficult to assess the
 quality of the ADCP temperature from these comparisons. These sensors were
 located at the top of the thermocline, where we expect to find substantial
 temperature differences between adjacent sensors. However, an indication of the
 ADCP temperatures' quality is given in the upper panel plot, which shows
 temperatures fluctuating closely around zero.
-```
 
 ```{figure} figures/microcats/w18tcompare_22.png
 :height: 1000px
@@ -205,7 +180,7 @@ temperatures fluctuating closely around zero.
 :name: figure5.3
 
 The temperature difference between the 7-m MicroCAT and the 10-m VMCM (upper
-pane)l; between the 15-m MicroCAT and the 10-m VMCM (middle panel); and between
+panel); between the 15-m MicroCAT and the 10-m VMCM (middle panel); and between
 the 7-m and the 15-m MicroCATs (lower panel ) during the WHOTS-18 deployment.
 The light blue line is a 24-hour running mean of the differences.
 ```
@@ -221,15 +196,13 @@ the 25-m and the 40-m MicroCATs (lower panel) during the WHOTS-18 deployment.
 The light blue line is a 24-hour running mean of the differences.
 ```
 
-````{warning} **FSM PLEASE CHECK HERE** MISSING PLOTS FOR 18/mcat folder -->
-
 ```{figure} figures/microcats/w18tcompare_4.png
 :height: 1000px
 :align: center
 :name: figure5.5
 
 The temperature difference between the 45-m MicroCAT and the 47.5-m ADCP (upper
-panel). (The ADCP stopped collecting data on 2020/1/21); between the 50-m
+panel) (The ADCP stopped collecting data on 2023/2/10); between the 50-m
 MicroCAT and the 47.5-m ADCP (middle panel); and between the 45-m and the 50-m
 MicroCATs (lower panel) during the WHOTS-18 deployment. The light blue line is
 a 24-hour running mean of the differences.
@@ -241,16 +214,12 @@ a 24-hour running mean of the differences.
 :name: figure5.6
 
 The temperature difference between the 120-m MicroCAT and the 125-m ADCP (upper
-panel); between the 135-m MicroCAT and the 125-m ADCP (middle panel); and
+panel) (the ADCP stopped collecting data on 2023/1/24); between the 135-m MicroCAT and the 125-m ADCP (middle panel); and
 between the 120-m and the 135-m MicroCATs (lower panel) during the WHOTS-18
 deployment. The light blue line is a 24-hour running mean of the differences.
 ```
 
-````
-
 ### Conductivity Calibration
-
-```{warning} **FSM PLEASE CHECK HERE**  -->
 
 The results of the Sea-Bird post-recovery conductivity calibrations indicated
 that some MicroCAT conductivity sensors experienced relatively large offsets
@@ -313,15 +282,13 @@ differences between both instruments were in the ±0.001 range.
 Another characteristic of the offsets in the conductivity sensors is that their
 development is not always linear in time. Their behavior can be highly variable
 {cite}`Santiago-Mandujano2007`. The corrections applied to each of the
-conductivity sensors during WHOTS-18 are shown in {numref}`figure5.8`
-through {numref}`figure5.14`. Most of the instruments had a drift of less than
-0.04 Siemens/m for the duration of the deployment (except for the near-surface
-instrument SN 1834 which had a 0.08 S/m drift), corrected with a linear or
-cubic least-squares fit. Many of the instruments deployed above 120 m showed a
-negative drift starting a few months before the end of their record, apparently
-due to the anti-foulant expiration.
-
-```
+conductivity sensors during WHOTS-18 are shown in {numref}`figure5.8` through
+{numref}`figure5.14`. Most of the instruments had a drift of less than 0.02
+Siemens/m for the duration of the deployment, corrected with a linear, cubic
+least-squares or stepwise fit. The instrument at 155 m had a large offset (0.5
+Siemens/m) on November 15, 2022. Some of the instruments deployed above 120 m
+showed a negative drift starting a few months before the end of their record,
+apparently due to the anti-foulant expiration.
 
 ```{figure} figures/microcats/plt_w18_deep_corr.png
 :height: 1000px
@@ -571,7 +538,6 @@ Same as {numref}`figure5.18`, but for the 600 kHz ADCP.
 
 ```
 
-
 #### ADCP Clock Drift
 
 Upon recovery, a spike is normally produced in the ADCP data by gently rubbing
@@ -588,11 +554,11 @@ spectrum analysis. A drift correction needs to be applied in those cases.
 As mentioned in the ADCP configuration section, the data were recorded in the
 earth coordinates. A heading bias, the angle between magnetic north and true
 north, can be included in the setup to obtain output data in true-earth
-coordinates. Magnetic variation was obtained from the
-[National Geophysical Data Center ‘Geomag’ calculator](https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml#declination)
+coordinates. Magnetic variation was obtained from the [National Geophysical
+Data Center ‘Geomag’
+calculator](https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml#declination)
 . A constant value is acceptable for a yearlong deployment because the change
-in declination is small, approximately -0.02°{math}`year^{-1}` at the
-WHOTS
+in declination is small, approximately -0.02°{math}`year^{-1}` at the WHOTS
 location. A heading bias of 9.54° was entered in the setup of the WHOTS-18
 ADCP’s.
 
@@ -603,13 +569,13 @@ the speed of sound needs only be measured at the transducer head
 {cite}`Firing1991`. The sound speed used by the ADCP is calculated using a
 constant value of salinity (35) and the temperature recorded by the transducer
 temperature sensor of the ADCP. Using CTD profiles close to the mooring during
-HOT cruises, HOT-316 to 332, and from the WHOTS deployment/recovery cruises,
-the mean salinity at 125 dbar was 34.95 while the mean salinity at 47.5 dbar
-was 34.87. The mean ADCP temperature at 125 dbar was 21.38 °C and 25.86 °C at
+HOT cruises, HOT-338 to 342, and from the WHOTS deployment/recovery cruises,
+the mean salinity at 125 dbar was 35.19 while the mean salinity at 47.5 dbar
+was 35.11. The mean ADCP temperature at 125 dbar was 22.11 °C and 25.08 °C at
 47.5dbar
 ({numref}`figure5.18`, {numref}`figure5.19`, and {numref}`figure5.20`).The mean
-sound velocity at 47.5 and 125 dbar was {math}`1537.04 ms^{-1}` and
-{math}`1527.12 ms^{-1}`, respectively.
+sound velocity at 47.5 and 125 dbar was {math}`1535.49 ms^{-1}` and
+{math}`1529.42 ms^{-1}`, respectively.
 
 ```{figure} figures/adcp_moored/wh18_CTD_sv_profile.png
 :height: 800px
@@ -618,13 +584,13 @@ sound velocity at 47.5 and 125 dbar was {math}`1537.04 ms^{-1}` and
 
 Sound speed profile (top panel) during the deployment of the WHOTS-18 mooring
 from 2 dbar CTD data taken during regular HOT cruises and CTD profiles taken
-during the WHOTS-18 and -19) deployment cruises (individual casts marked with a
+during the WHOTS-18 and -19 deployment cruises (individual casts marked with a
 red diamond). The bottom left panels show the sound velocity at a depth of the
 ADCP’s (47.5 m and 125 m), with the mean sound velocity indicated with a
 dashed black line. The lower right panels show the temperature and salinity
 at each ADCP depth for the time series, with the mean temperatures
 indicated with blue lines and mean salinity indicated with red lines.
-````
+```
 
 #### Quality Control
 
@@ -642,8 +608,8 @@ procedures were applied to the WHOTS-18 deployment of ADCP data.
    returns can be contaminated by the lingering noise from the transducer. The
    blanking interval is expressed as a distance. The default value of 1.76 m
    was used for the 300 kHz ADCP, whereas an interval of 0.88 m was used for
-   the 600 kHz ADCP. As a result, bin one was flagged and replaced with ` Not a
-Number (NaN)` in the quality-controlled dataset ({numref}`figure5.21`).
+   the 600 kHz ADCP. As a result, bin one was flagged and replaced with _Not a
+   Number (NaN)_ in the quality-controlled dataset ({numref}`figure5.21`).
 
    ```{figure} figures/adcp_moored/wh18_ringing.png
    :height: 600px
@@ -770,7 +736,7 @@ Number (NaN)` in the quality-controlled dataset ({numref}`figure5.21`).
 ## Vector Measuring Current Meter (VMCM)
 
 Vector measuring current meters (VMCM) were deployed on the WHOTS-18 mooring at
-depths of 10 m and 30 m, serial numbers SN 2042 and 2032, respectively. VMCM
+depths of 10 m and 30 m, serial numbers SN 2032 and 2042, respectively. VMCM
 data were processed by the WHOI/UOP group, and the record times are shown
 in {numref}`table-22`.
 
@@ -778,10 +744,12 @@ in {numref}`table-22`.
 :class: sd-m-auto
 :align: center
 :name: table-22
-|  **Time Over**   |  **VMCM (SN 2042)**  |  **VMCM (SN 2032)**  |
-|:----------------:|:--------------------:|:--------------------:|
-|  **Deployment**  |    10/5/19 19:11     |    10/5/19 18:51     |
-|   **Recovery**   |     8/29/21 3:17     |     8/29/21 3:27     |
+
+| **Time Over**  | **VMCM (SN 2042)** | **VMCM (SN 2032)** |
+| :------------: | :----------------: | :----------------: |
+| **Deployment** |   07/23/22 19:26   |   07/23/22 19:35   |
+|  **Recovery**  |   06/20/23 02:31   |   06/20/23 03:56   |
+
 ```
 
 Daily (24 hours) moving averages of quality controlled 600 kHz ADCP data are
