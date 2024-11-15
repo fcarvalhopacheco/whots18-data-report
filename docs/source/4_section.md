@@ -78,7 +78,7 @@ corrections applied to the CTD pressures were a constant offset determined when
 the CTD first enters the water on each cast. Also, a span correction determined
 from bench tests on the sensor against the transfer standard was applied. These
 procedures and corrections are thoroughly documented in the HOT-2022 data
-report {cite}`Fukieki2024`.
+report {cite}`Fujieki2024`.
 
 #### Temperature/Conductivity
 
@@ -86,7 +86,7 @@ Sea-Bird SBE-3-Plus temperature and SBE 4C conductivity transducers were used
 during WHOTS-18 and -19 cruises. These sensors' history and performance have
 been monitored during HOT cruises, and calibrations and drift corrections
 applied during WHOTS cruises are thoroughly documented in the HOT-2022 data
-report {cite}`Fukieki2024`.
+report {cite}`Fujieki2024`.
 
 #### Dissolved Oxygen
 
