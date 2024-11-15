@@ -12,12 +12,10 @@ for the WHOTS-18 and WHOTS-19 cruises. Broadband mode for the OS75 provided
 additional current data over the range upper 200 m with a vertical resolution
 of 8m.
 
-```{warning}
 Data gaps occurred when the system was shut down temporarily during
 communications with the acoustic releases used for the moorings during both
 cruises. Periods of missing data between 300 and 450 m in the broadband ADCP
 were apparent due to the lack of scattering material in the water.
-```
 
 ## Conductivity, Temperature, and Depth (CTD) Profiling
 
@@ -66,7 +64,7 @@ commonly contaminate upcast data.
 
 Temperature is reported on the ITS-90 scale. Salinity and all derived units
 were calculated using the UNESCO (1981) routines; salinity is reported in the
-Practical Salinity(SA) scale (PSS-78). Oxygen is reported in umol kg-1.
+Practical Salinity(SA) scale (PSS-78). Oxygen is reported in umol/kg.
 
 ### CTD Sensor Calibration and Corrections
 
@@ -92,17 +90,16 @@ report {cite}`Fukieki2024`.
 
 #### Dissolved Oxygen
 
-```{warning}
 Sea-Bird SBE-43 oxygen sensors were used during the WHOTS-18 and -19 cruises.
+There were no oxygen samples taken during the cruise to calibrate the CTD sensors.
 The WHOTS-18 oxygen data were calibrated using calibration coefficients
 obtained during the HOT-305 cruise, as this was the only available option since
-these sensors had not been used previously . The CTD empirical calibration was
+these sensors had not been used previously. The HOT cruise CTD empirical calibration was
 performed using oxygen water samples and the procedure from {cite}`Owens1985`.
 See {cite}`Tupas1996` for details on these calibrations procedures. The oxygen
 data from WHOTS-19 were calibrated using calibration coefficients obtained
-during the HOT-342 cruise conducted on 24-30 May 2023, before the WHOTS-19
-cruise, which used the same oxygen sensors.
-```
+during the HOT-343 cruise conducted on 15-22 August 2023, after the WHOTS-19
+cruise, which used the same oxygen sensor.
 
 ## Water Sampling and Analysis
 
@@ -243,9 +240,9 @@ and TSG conductivity, and a correction was obtained for the TSG conductivities.
 Salinity was calculated using these corrected conductivities, the
 thermosalinograph temperatures, and 10 dbar pressure. After applying
 corrections, the mean difference between the bottle and thermosalinograph
-salinities was -0.00006 psu with a standard deviation of 0.003283 psu. The mean
-CTD - thermosalinograph difference was -0.001098 psu with a standard deviation
-of 0.004031 psu.
+salinities was -0.0001 psu with a standard deviation of 0.0033 psu. The mean
+CTD - thermosalinograph difference was -0.0011 psu with a standard deviation
+of 0.0040 psu.
 
 #### CTD Temperature Comparisons
 
@@ -259,7 +256,7 @@ an estimate of the quality of the thermosalinograph measurements.
 Of the nine casts, casts #4 and 8 were identified as temperature outliers after
 comparing them against the thermosalinograph data and removed from the
 analysis. The mean difference between the CTD and the internal temperature
-sensor was -0.12737°C, with a standard deviation of ± 0.04483°C.
+sensor was -0.1274°C, with a standard deviation of ± 0.0448°C.
 
 ### WHOTS-19 Cruise
 
@@ -350,9 +347,9 @@ and TSG conductivity, and a correction was obtained for the TSG conductivities.
 Salinity was calculated using these corrected conductivities, the
 thermosalinograph temperatures, and ten dbar pressure. After applying
 corrections, the mean difference between the bottle and thermosalinograph
-salinities was less than 1 mpsu with a standard deviation of 0.004366psu. The
-mean CTD - thermosalinograph difference was 0.007705psu with a standard
-deviation of 0.015000psu.
+salinities was less than 1 mpsu with a standard deviation of 0.0044 psu. The
+mean CTD - thermosalinograph difference was 0.0077 psu with a standard
+deviation of 0.0150 psu.
 
 #### CTD Temperature Comparisons
 
@@ -363,8 +360,8 @@ the thermosalinograph data at the time of the casts. This comparison gives an
 estimate of the quality of the thermosalinograph measurements. Of the five
 casts, none was identified as temperature outliers after comparing it against
 the thermosalinograph data and removed from the analysis. The mean difference
-between the CTD and the internal temperature sensor was -0.21145°C, with a
-standard deviation of ± 0.01832°C.
+between the CTD and the internal temperature sensor was -0.2114 °C, with a
+standard deviation of ± 0.0183 °C.
 
 ## Shipboard ADCP
 
