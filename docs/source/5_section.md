@@ -759,8 +759,8 @@ shown in the middle panels. The absolute value of the mean difference plus or
 minus one standard deviation is shown at the top of the middle panel.
 Velocities are not compared if greater than 80% of the ADCP data within a
 24-hour average was flagged. The absolute value of mean differences for all
-deployments and both velocity components varied between 2 and 3.5
-{math}`cm s^{-1}`, with standard deviations between 1.8 and 2.7
+deployments and both velocity components varied between 1.8 and 3.3
+{math}`cm s^{-1}`, with standard deviations between 1.3 and 2.6
 {math}`cm s^{-1}`. The VMCM data does not appear to degrade over time for any
 deployment. Propeller fouling would dampen measured VMCM velocity magnitudes,
 but a decrease in VMCM velocity magnitude than ADCP velocity magnitude with
@@ -773,7 +773,7 @@ time is not observed.
 
 A comparison of 30 m VMCM and ADCP U velocity for WHOTS-18. The top panel shows
 24-hour moving averages of VMCM zonal (U) velocity at 30 m depth (red) and ADCP
-U velocity from the nearest depth bin to 30 m (30.22 m). The middle panel shows
+U velocity from the nearest depth bin to 30 m. The middle panel shows
 the U velocity difference, and the bottom panel shows the percentage of ADCP
 data within the moving average not flagged by quality control methods.
 ```
@@ -808,15 +808,16 @@ Xeos Global Positioning System receiver (Melo-`IMEI:300034012129060`) and
 (Rover-`IMEI:300434063359170`) were attached to the buoy's tower
 top during the WHOTS-18 deployment
 ({ref}`/3_section.md#description-of-whots-18-mooring`). Data returns from the
-receiver were high ({numref}`table-23`). There was no ARGOS receiver for
-WHOTS-18.
+receiver were high ({numref}`table-23`).
 
 ```{table} GPS record times (UTC mm/dd/yy hh:mm) during WHOTS-18
 :class: sd-m-auto
 :align: center
 :name: table-23
-|   **Raw file**   |  **Xeos GPS (Melo)**  |  **Xeos GPS (Rover)**  |
-|:----------------:|:---------------------:|:----------------------:|
-|  **Start Time**  |     10/6/19 03:07     |     7/30/19 21:01      |
-|   **End Time**   |     3/28/20 04:43     |     8/30/21 12:00      |
+
+|  **Raw file**  | **Xeos GPS (Melo)** | **Xeos GPS (Rover)** |
+| :------------: | :-----------------: | :------------------: |
+| **Start Time** |   07/24/22 03:09    |    05/18/22 00:01    |
+|  **End Time**  |   06/19/23 04:39    |    06/19/23 00:02    |
+
 ```
