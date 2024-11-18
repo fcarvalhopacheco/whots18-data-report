@@ -1,32 +1,23 @@
 # Results
 
 During the WHOTS-18 cruise (WHOTS-18 mooring deployment, 24 July 2022), a
-weakening front north of the Hawaiian Islands acted to weaken trades across the
-region. This ridge to the north was eroding due to a weakening cold front north
-of the ridge, which led to a downward trend in winds. The front continued to
-weaken and sink southward through the weekend, keeping the winds light and
-variable. Regular trades returned by mid-week. On October 10, winds
-in the morning increased to 25 kt gusting to 35 kt, and there was a brief rain
-event in the morning. Waves during the week were also low, with a small swell
-from the north arriving mid-week.
+high-pressure ridge far north of the Hawaiian Islands maintained a tight enough
+pressure gradient down across the region to produce moderate local trades,
+increasing by the end of the cruise. There was no measurable precipitation
+during the deployment or recovery times. Conditions during the WHOTS-18
+deployment were favorable, with light ENE winds during the deployment. There
+were clear skies and no precipitation in the region , and small short- period
+wind waves.
 
-Near-surface currents were almost 1 kt northward during transit to Station
-ALOHA, turning southward upon arrival to Station ALOHA. Eventually, the current
-shifted due north again, became somewhat weaker (about 0.5 kt), and remained
-for approximately five days. There was a nearly low sea level just to the east
-of Station ALOHA, not quite a fully formed eddy; it was reflected by northward
-flow to the east and southward flow to the west. A combination of internal
-semi-diurnal and diurnal tides and near-inertial oscillations was noticeable,
-especially in vertical shear.
-
-Conditions during the WHOTS-18 deployment on October 5 were favorable, with
-light NNE winds of ~ 5 kt increasing to up to 10 kt by the end of the
-deployment. There were clear skies and no precipitation in the region, and 1.0
-to 1.5 m waves from the east, with a strong surface current towards ENE.
+Currents were nearly 1 kt to the west in the upper 200 m. This westward flow
+seemed to be associated with a high sea level north of Station ALOHA. A
+combination of internal semidiurnal and diurnal tides, along with near-inertial
+oscillations, were noticeable especially in vertical shear.
 
 CTD casts conducted near the WHOTS-18 buoy (Station 52) after deployment
-({numref}`figure6.4` and {numref}`figure6.5`) displayed a subsurface
-salinity maximum between 70 and 80 dbar and a mixed layer 40 to 60 dbar deep.
+({numref}`figure6.3`, and {numref}`figure6.4`) displayed a
+subsurface salinity maximum between 70 and 80 dbar and a mixed layer 40 to 60
+dbar deep.
 
 During the WHOTS-19 cruise (WHOTS-18 mooring recovery, 17 June 2023), a high-pressure ridge far north of the Hawaiian Islands maintained a
 tight enough pressure gradient down across the region to produce moderate to
@@ -128,14 +119,14 @@ cruise.
 :align: center
 :name: figure6.1
 
-[Upper left panel] Profiles of CTD temperature, salinity, and potential
-density ({math}`\sigma\theta`) as a function of pressure, including discrete
-bottle salinity samples (when available) for station 20 cast 1 during the
-WHOTS-18 cruise. [Upper right panel] Profiles of CTD salinity as a function
-of potential temperature, including discrete bottle salinity samples (when
-available) for station 20 cast 1 during the WHOTS-18 cruise. [Lower left
-panel] Same as in the upper left panel, but for station 50 cast 1. [Lower
-right panel] Same as in the upper right panel, but station 50 cast 1.
+[Upper left panel] Profiles of CTD temperature, salinity, and potential density
+({math}`\sigma\theta`) as a function of pressure, including discrete bottle
+salinity samples (when available) for station 20 cast 1 during the WHOTS-18
+cruise. [Upper right panel] Profiles of CTD salinity as a function of potential
+temperature, including discrete bottle salinity samples (when available) for
+station 20 cast 1 during the WHOTS-18 cruise. [Lower left panel] Same as in the
+upper left panel, but for station 50 cast 1. [Lower right panel] Same as in the
+upper right panel, but station 50 cast 1.
 ```
 
 ```{figure} figures/ctd/1.whots_18/s50c2_s50c3.png
@@ -147,55 +138,54 @@ right panel] Same as in the upper right panel, but station 50 cast 1.
 2. [Lower panels] Same as {numref}`figure6.1`, but for station 50, cast 3.
 ```
 
-```{figure} figures/ctd/1.whots_18/s50c4_s50c5.png
+```{figure} figures/ctd/1.whots_18/s50c4_s52c1.png
 :height: 1000px
 :align: center
 :name: figure6.3
 
 [Upper panels] Same as in {numref}`figure6.1`, but for station 50, cast 4.
-[Lower panels] Same as in {numref}`figure6.1`, but for station 50 cast 5.
+[Lower panels] Same as in {numref}`figure6.1`, but for station 52 cast 1.
 ```
 
-```{figure} figures/ctd/1.whots_18/s52c1_s52c2.png
+```{figure} figures/ctd/1.whots_18/s52c2_s52c3.png
 :height: 1000px
 :align: center
 :name: figure6.4
 
-[Upper panels] Same as in {numref}`figure6.1`, but for station 52, cast 1. [Lower
-panels] Same as in {numref}`figure6.1`, but for station 52, cast 2.
+[Upper panels] Same as in {numref}`figure6.1`, but for station 52, cast 2. [Lower
+panels] Same as in {numref}`figure6.1`, but for station 52, cast 3.
 ```
 
-```{figure} figures/ctd/1.whots_18/s52c3_s52c4.png
+```{figure} figures/ctd/1.whots_18/s52c4_s52c4.png
 :height: 1000px
 :align: center
 :name: figure6.5
 
-Upper panels] Same as in {numref}`figure6.1`, but for station 52, cast 3.[Lower
-panels] Same as in {numref}`figure6.1`, but for station 52, cast 4.
+Upper panels] Same as in {numref}`figure6.1`, but for station 52, cast 4.
 ```
 
-```{figure} figures/ctd/2.whots_19/s2c1_s20c1.png
+```{figure} figures/ctd/2.whots_19/s20c1_s52c1.png
 :height: 800px
 :align: center
 :name: figure6.6
 
 [Upper left panel] Profiles of CTD temperature, salinity, and potential
 density ({math}`\sigma\theta`) as a function of pressure, including discrete
-bottle salinity samples (when available) for station 2 cast 1 during the
+bottle salinity samples (when available) for station 20 cast 1 during the
 WHOTS-19 cruise. [Upper right panel] Profiles of CTD salinity as a function
 of potential temperature, including discrete bottle salinity samples (when
-available) for station 2 cast 1 during the WHOTS-19 cruise. [Lower left
-panel] Same as in the upper left panel, but for station 20 cast 1. [Lower
-right panel] Same as in the upper right panel, but station 20 cast 1.
+available) for station 20 cast 1 during the WHOTS-19 cruise. [Lower left
+panel] Same as in the upper left panel, but for station 50 cast 1. [Lower
+right panel] Same as in the upper right panel, but station 50 cast 1.
 ```
 
-```{figure} figures/ctd/2.whots_19/s50c1_s50c2.png
+```{figure} figures/ctd/2.whots_19/s52c2_s55c3.png
 :height: 1000px
 :align: center
 :name: figure6.7
 
-Upper panels] Same as in {numref}`figure6.6`, but for station 50, cast
-1.[Lower panels] Same as in {numref}`figure6.6`, but for station 50, cast 2.
+Upper panels] Same as in {numref}`figure6.6`, but for station 52, cast
+1.[Lower panels] Same as in {numref}`figure6.6`, but for station 52, cast 3.
 ```
 
 ```{figure} figures/ctd/2.whots_19/s50c3_s50c4.png
@@ -205,24 +195,6 @@ Upper panels] Same as in {numref}`figure6.6`, but for station 50, cast
 
 Upper panels] Same as in {numref}`figure6.6`, but for station 50, cast
 3.[Lower panels] Same as in {numref}`figure6.6`, but for station 50, cast 4.
-```
-
-```{figure} figures/ctd/2.whots_19/s50c5_s50c6.png
-:height: 1000px
-:align: center
-:name: figure6.9
-
-Upper panels] Same as in {numref}`figure6.6`, but for station 50, cast
-5.[Lower panels] Same as in {numref}`figure6.6`, but for station 50, cast 6.
-```
-
-```{figure} figures/ctd/2.whots_19/s52c1_s52c2.png
-:height: 1000px
-:align: center
-:name: figure6.10
-
-Upper panels] Same as in {numref}`figure6.6`, but for station 52, cast 1.
-[Lower panels] Same as in {numref}`figure6.6`, but for station 52, cast 2.
 ```
 
 ## Thermosalinograph Data
