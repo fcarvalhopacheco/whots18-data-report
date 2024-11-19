@@ -218,15 +218,9 @@ Upper panels] Same as in {numref}`figure6.6`, but for station 52, cast
 Underway measurements of near-surface temperature and salinity from the
 thermosalinograph (TSG) system onboard the R/V Oscar Sette cruise are presented
 in {numref}`ac41thsl_final.png` and navigational data is shown in
-{numref}`ac41nav_final.png` for the WHOTS-18 cruise. The WHOTS-18 underway
-seawater system that feeds the TSG failed on October 11, 2019, due to air
-going into the plumbing, causing the pumps to stop working during
-deteriorated weather conditions. TSG and navigational data during the
-WHOTS-19 cruise, onboard the R/V Oscar Sette, are presented in {numref}
-`ac42thsl_final.png` and {numref}`ac42nav_final.png`, respectively. The
-data between August 25 and 27, 2021 are particularly bad because it was
-during transit back to Oahu to disembark a crew member with medical
-problems, and the flow through the system was stopped during that time.
+{numref}`ac41nav_final.png` for the WHOTS-18 cruise. TSG and navigational data
+during the WHOTS-19 cruise, onboard the R/V Oscar Sette, are presented in
+{numref}`ac42thsl_final.png` and {numref}`ac42nav_final.png`, respectively.
 
 ```{figure} figures/thermosal/ac41thsl_final.png
 :height: 600px
@@ -276,16 +270,17 @@ speed (lower panel) during the WHOTS-19 cruise.
 
 The temperatures measured by MicroCATs during the mooring deployment for
 WHOTS-18 are presented in {numref}`wh18_Temp_1_4.png` through
-{numref}`wh18_Temp_21.png` for each of the depths where the instruments
-were located. The salinities are plotted in {numref}`wh18_Sali_1_4.png`
-through {numref}`wh18_Sali_21.png`. The potential densities ({math}`\sigma\theta`) are
-plotted in {numref}`wh18_Sigma_1_4.png` through {numref}`wh18_Sigma_21.png`.
+{numref}`wh18_Temp_13_16.png` for each of the depths where the instruments were
+located. The salinities are plotted in {numref}`wh18_Sali_1_4.png` through
+{numref}`wh18_Sali_13_16.png`. The potential densities ({math}`\sigma\theta`)
+are plotted in {numref}`wh18_Sigma_1_4.png` through
+{numref}`wh18_Sigma_13_16.png`.
 
 Contoured plots of temperature and salinity as a function of depth for the
-deployments WHOTS-1 through -16 are presented in {numref}`w1_18_contTS.png`,
-and contoured plots of potential density ({math}`\sigma\theta`) as a function of depth are in
-{numref}`w1_18_contSt.png`, and of salinity as a function of {math}`\sigma\theta`
-are in {numref}`w1_18_cont_S.png`.
+deployments WHOTS-1 through -18 are presented in {numref}`w1_18_contTS.png`,
+and contoured plots of potential density ({math}`\sigma\theta`) as a function
+of depth are in {numref}`w1_18_contSt.png`, and of salinity as a function of
+{math}`\sigma\theta` are in {numref}`w1_18_cont_S.png`.
 
 The potential temperature ({math}`\theta`) and salinity measured by the deep MicroCATs
 during the mooring deployment are shown in {numref}`plt_w18_aco_all.png`. Also
