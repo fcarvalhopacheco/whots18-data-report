@@ -81,20 +81,19 @@ agreed with the temperature decrease and the salinity variability
 registered by ACO instruments during cold events in January, March and
 December 2020, and a minor events in August 2020 and September 2021.
 
-```
 
 {numref}`WHOTS-18_u_subplot.png` through {numref}`WHOTS-18_w_subplot.png` shows
 the time series of the zonal, meridional, and vertical currents recorded with
 the moored ADCPs during the WHOTS-18 deployment.
-{numref}`wh1_18_adcp_uv_cont.png`, through {numref}`wh1_18_adcp_w_cont.png`,
-shows the ADCP current components' contours in context with data from the
-previous deployments. Despite the gaps in the data, an apparent variability is
-seen in the zonal and meridional currents, apparently caused by passing eddies.
-There have been periods of intermittent positive or negative zonal currents on
-top of this variability, for instance, during 2007-2008. The contours of the
-vertical current component {numref}`wh1_18_adcp_w_cont.png` show a transition
-in the magnitude of the contours near 47 m, indicating that the 300 kHz ADCP
-located at 126 m moves more vertically than the 600 kHz ADCP located at 47.5 m.
+{numref}`wh1_18_adcp_uvw_cont.png` shows the ADCP current components' contours
+in context with data from the previous deployments. Despite the gaps in the
+data, an apparent variability is seen in the zonal and meridional currents,
+apparently caused by passing eddies. There have been periods of intermittent
+positive or negative zonal currents on top of this variability, for instance,
+during 2007-2008. The contours of the vertical current component show a
+transition in the magnitude of the contours near 47 m, indicating that the 300
+kHz ADCP located at 126 m moves more vertically than the 600 kHz ADCP located
+at 47.5 m.
 
 A comparison between the moored ADCP data and the shipboard ADCP data obtained
 during the WHOTS-18 cruise is shown in
@@ -107,6 +106,7 @@ not removed from the data. Comparisons between the available shipboard ADCP
 from HOT-316 to -332 cruises and the mooring data are shown in
 {numref}`wh18_moor_ship_ADCP_comp_1.png` through
 {numref}`wh18_moor_ship_ADCP_comp_4.png`.
+```
 
 The Xeos-GPS receiver registered the WHOTS-18 buoy motion, and its positions
 are plotted in {numref}`wh18xeos_pos.png`. The buoy was located west of the
@@ -415,11 +415,58 @@ the ALOHA Cabled Observatory (ACO) sensors and the WHOTS-18 MicroCATs 11391 and
 
 ## Moored ADCP Data
 
+The contour plots presented in {numref}`wh1_18_adcp_uvw_cont.png` illustrate
+the temporal evolution of the smoothed horizontal (zonal and meridional
+components) and vertical velocity as a function of depth for the WHOTS mooring
+deployments from WHOTS 1 through WHOTS 18. The zonal velocity shows seasonal
+variability, with alternating eastward and westward flows often observed down
+to 100 meters. Notable changes are evident particularly during the deployments
+from 2010 to 2012 and from 2018 to 2020, where shifts in both magnitude and
+direction are prominent. The meridional component displays considerable
+variability in northward and southward flow, with the most significant changes
+occurring between 2011 and 2013. The vertical velocity component remains weaker
+overall, but increased variability is noticeable during the 2011 to 2013 period
+and again from 2018 onward.
+
+These observations highlight key periods of variability and provide insights
+into the evolving current structure throughout the WHOTS deployments. The years
+2011-2013 and 2018-2020 stand out as periods with significant changes in both
+horizontal and vertical velocity patterns, which may warrant further
+investigation in the context of regional conditions.
+
+The vertical velocity component is relatively weak compared to the horizontal
+components, indicating minimal large-scale vertical movement. However, slight
+positive and negative velocities during specific periods suggest internal wave
+activity or localized vertical mixing events.
+
+The plots in {numref}`wh_18_adcp_uvw_cont.png` detail the WHOTS-18 ADCP
+velocity measurements from mid-2022 through early 2023. The zonal velocity
+exhibits a predominantly westward flow throughout the deployment, with
+occasional eastward anomalies observed in the late summer and early winter
+months. These patterns align with seasonal wind forcing and possibly localized
+wind-driven upwelling events. The meridional velocity reveals alternating
+periods of northward and southward movement, suggesting the influence of
+mesoscale eddies and regional circulation patterns that drive variability along
+the meridional axis. In particular, significant northward transport was
+observed during late 2022, which transitioned to a southward direction in early 2023.
+
+The vertical velocity component is relatively weak compared to the horizontal
+components, indicating minimal large-scale vertical movement, consistent with
+the stratified nature of the upper ocean at these depths. However, slight
+positive and negative velocities during specific periods suggest internal wave
+activity or localized vertical mixing events.
+
+These plots collectively help us understand the dynamics of the ocean at the
+WHOTS-18 site, highlighting the importance of the combined influence of local
+wind forcing, mesoscale eddy activity, and internal waves in shaping the
+observed current structure.
+
+````
+
 Contoured plots of smoothed horizontal (east and north component) and vertical
 velocity as a function of depth during the mooring deployments 1 through 18 are
-presented in {numref}`wh1_18_adcp_uv_cont.png` and
-{numref}`wh1_18_adcp_w_cont.png`. A staggered time-series of smoothed
-horizontal and vertical velocities are shown in
+presented in {numref}`wh1_18_adcp_uvw_cont.png`. A staggered time-series of
+smoothed horizontal and vertical velocities are shown in
 {numref}`WHOTS-18_u_subplot.png` through {numref}`WHOTS-18_w_subplot.png`.
 Smoothing was performed by applying a daily running mean to the data and then
 interpolating it on an hourly grid.
@@ -430,24 +477,16 @@ WHOTS-18 deployment as a function of time and depth, during the WHOTS-18
 cruise, are shown in {numref}`whots18deploy_adcp_contour1.png` and
 {numref}`whots18deploy_adcp_contour2.png`.
 
-```{figure} figures/adcp_moored/wh1_18_adcp_uv_cont.png
+```{figure} figures/adcp_moored/wh1_18_adcp_uvw_cont.png
 :width: 1000px
 :align: center
-:name: wh1_18_adcp_uv_cont.png
+:name: wh1_18_adcp_uvw_cont.png
 
 Contour plot of east velocity component ({math}`m s^{-1}`) versus depth and
 time from the moored ADCPs from the WHOTS-1 through -18 deployments (upper panel).
-Contour plot of north velocity component ({math}`m s^{-1}`) (lower panel).
-```
-
-```{figure} figures/adcp_moored/wh1_18_adcp_w_cont.png
-:width: 1000px
-:align: center
-:name: wh1_18_adcp_w_cont.png
-
-Contour plot of vertical velocity component ({math}`m s^{-1}`) versus depth
-and time from the moored ADCPs from the WHOTS-1 through -18 deployments.
-```
+Contour plot of north velocity component ({math}`m s^{-1}`) (middle panel).
+Contour plot of vertical velocity component ({math}`m s^{-1}`)(lower panel).
+````
 
 ```{figure} figures/adcp_moored/WHOTS-18_u_subplot.png
 :width: 1000px
