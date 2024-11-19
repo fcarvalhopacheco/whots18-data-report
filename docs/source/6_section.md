@@ -15,26 +15,37 @@ combination of internal semidiurnal and diurnal tides, along with near-inertial
 oscillations, were noticeable especially in vertical shear.
 
 CTD casts conducted near the WHOTS-18 buoy (Station 52) after deployment
-({numref}`figure6.3`, and {numref}`figure6.4`) displayed a
-subsurface salinity maximum between 70 and 80 dbar and a mixed layer 40 to 60
+({numref}`figure6.3`, {numref}`figure6.4`, {numref}`figure6.5`) displayed a
+subsurface salinity maximum between 60 and 80dbar and a mixed layer 60 to 80
 dbar deep.
 
-During the WHOTS-19 cruise (WHOTS-18 mooring recovery, 17 June 2023), a high-pressure ridge far north of the Hawaiian Islands maintained a
-tight enough pressure gradient down across the region to produce moderate to
-locally strong trades. As this high slowly moved northeast away from the area
-and subtly weakened the gradient, trades gradually weakened. There was no
-measurable precipitation during the mooring recovery, and surface
-currents were less than 1 kt.
+During the WHOTS-19 cruise (WHOTS-18 mooring recovery, 19 June 2023), , a
+high-pressure ridge far north of the Hawaiian Islands maintained a tight enough
+pressure gradient down across the region to produce moderate local trades,
+increasing by the end of the cruise. There was no measurable precipitation
+during the deployment or recovery times. Conditions during the WHOTS-19
+deployment on June 16-17 were favorable. There were 15-16 kt winds from the
+east during the deployment and a westward current of nearly 0.5 kt
+near the surface. There were clear skies and no precipitation in the region
+, and there were small short-period wind waves.
+
+Currents were predominantly to the northwest in the upper 200 m. This westward
+flow seemed to be associated with a high sea level north of Station ALOHA. A
+combination of internal semidiurnal and diurnal tides, along with near-inertial
+oscillations, were noticeable, especially in vertical shear.
 
 CTD casts conducted near the WHOTS-18 buoy (Station 52) before recovery
-({numref}`figure6.10`) displayed a subsurface salinity maximum between 150 and
-170 dbar and a mixed layer 60 dbar deep.
+({numref}`figure6.6`, {numref}`figure6.7`, {numref}`figure6.8`) displayed a
+subsurface salinity maximum between 130 and 150 dbar and a mixed layer of about
+40 dbar deep.
+
+```{warning} **FSM UPDATE TEXT HERE PLEASE**
 
 The temperature MicroCAT records during the WHOTS-18 deployment
-({numref}`wh18_Temp_1_4.png` through {numref}`wh18_Temp_21.png`) show
+({numref}`wh18_Temp_1_4.png` through {numref}`wh18_Temp_9_12.png`) show
 noticeable seasonal variability in the upper 100 m. A temperature decrease in
 October-November 2019 was evident in the instruments below 65 m. The salinity
-records ({numref}`wh18_Sali_1_4.png` through {numref}`wh18_Sali_21.png`) do
+records ({numref}`wh18_Sali_1_4.png` through {numref}`wh18_Sali_9_12.png`) do
 not show an apparent seasonal cycle, but a salinity increase was recorded
 during October-November 2019, by the instruments between 40 and 85 m,
 coinciding with the temperature decrease. This increase was followed by a
@@ -69,6 +80,8 @@ the WHOTS-18 MicroCATs superimposed on the ACO data. The MicroCAT data
 agreed with the temperature decrease and the salinity variability
 registered by ACO instruments during cold events in January, March and
 December 2020, and a minor events in August 2020 and September 2021.
+
+```
 
 {numref}`WHOTS-18_u_subplot.png` through {numref}`WHOTS-18_w_subplot.png` shows
 the time series of the zonal, meridional, and vertical currents recorded with
@@ -161,7 +174,7 @@ panels] Same as in {numref}`figure6.1`, but for station 52, cast 3.
 :align: center
 :name: figure6.5
 
-Upper panels] Same as in {numref}`figure6.1`, but for station 52, cast 4.
+[Upper panels] Same as in {numref}`figure6.1`, but for station 52, cast 4.
 ```
 
 ```{figure} figures/ctd/2.whots_19/s20c1_s52c1.png
@@ -175,11 +188,11 @@ bottle salinity samples (when available) for station 20 cast 1 during the
 WHOTS-19 cruise. [Upper right panel] Profiles of CTD salinity as a function
 of potential temperature, including discrete bottle salinity samples (when
 available) for station 20 cast 1 during the WHOTS-19 cruise. [Lower left
-panel] Same as in the upper left panel, but for station 50 cast 1. [Lower
-right panel] Same as in the upper right panel, but station 50 cast 1.
+panel] Same as in the upper left panel, but for station 52 cast 1. [Lower
+right panel] Same as in the upper right panel, but station 52 cast 1.
 ```
 
-```{figure} figures/ctd/2.whots_19/s52c2_s55c3.png
+```{figure} figures/ctd/2.whots_19/s52c2_s52c3.png
 :height: 1000px
 :align: center
 :name: figure6.7
@@ -188,13 +201,13 @@ Upper panels] Same as in {numref}`figure6.6`, but for station 52, cast
 1.[Lower panels] Same as in {numref}`figure6.6`, but for station 52, cast 3.
 ```
 
-```{figure} figures/ctd/2.whots_19/s50c3_s50c4.png
+```{figure} figures/ctd/2.whots_19/s52c4_s52c4.png
 :height: 1000px
 :align: center
 :name: figure6.8
 
-Upper panels] Same as in {numref}`figure6.6`, but for station 50, cast
-3.[Lower panels] Same as in {numref}`figure6.6`, but for station 50, cast 4.
+Upper panels] Same as in {numref}`figure6.6`, but for station 52, cast
+4.
 ```
 
 ## Thermosalinograph Data
@@ -281,84 +294,56 @@ the WHOTS-18 anchor. The instrument is located 2 m above the bottom.
 :height: 1000px
 :align: center
 :name: wh18_Temp_1_4.png
-Temperatures from MicroCATs during WHOTS-18 deployment at 1.5, 7, 15, and 25 m.
+Temperatures from MicroCATs during WHOTS-18 deployment at 1.5, 7, 15, and 25m.
 ```
 
 ```{figure} figures/microcats/wh18_Temp_5_8.png
 :height: 1000px
 :align: center
 :name: wh18_Temp_5_8.png
-Same as in {numref}`wh18_Temp_1_4.png`, but at 35, 40, 45, and 50 m.
+Same as in {numref}`wh18_Temp_1_4.png`, but at 40, 45, 50, and 55m.
 ```
 
 ```{figure} figures/microcats/wh18_Temp_9_12.png
 :height: 1000px
 :align: center
 :name: wh18_Temp_9_12.png
-Same as in {numref}`wh18_Temp_1_4.png`, but at 55, 65, 75, and 85 m.
+Same as in {numref}`wh18_Temp_1_4.png`, but at 65, 75, 85, and 95m.
 ```
 
-```{figure} figures/microcats/wh18_Temp_13_18.png
+```{figure} figures/microcats/wh18_Temp_13_16.png
 :height: 1000px
 :align: center
 :name: wh18_Temp_13_16.png
-Same as in {numref}`wh18_Temp_1_4.png`, but at 95, 105, 120, and 135 m.
-```
-
-```{figure} figures/microcats/wh18_Temp_17_20.png
-:height: 1000px
-:align: center
-:name: wh18_Temp_17_20.png
-Same as in {numref}`wh18_Temp_1_4.png`, but at 155, 1875, and 4713 m.
-```
-
-```{figure} figures/microcats/wh18_Temp_21.png
-:height: 1000px
-:align: center
-:name: wh18_Temp_21.png
-Same as in {numref}`wh18_Temp_1_4.png`, but at 4713 m
+Same as in {numref}`wh18_Temp_1_4.png`, but a 105, 120, 135, and 155m.
 ```
 
 ```{figure} figures/microcats/wh18_Sali_1_4.png
 :height: 1000px
 :align: center
 :name: wh18_Sali_1_4.png
-Salinities from MicroCATs during WHOTS-18 deployment at 1.5, 7, 15, and 25 m
+Salinities from MicroCATs during WHOTS-18 deployment at 1.5, 7, 15, and 25m
 ```
 
 ```{figure} figures/microcats/wh18_Sali_5_8.png
 :height: 1000px
 :align: center
 :name: wh18_Sali_5_8.png
-Same as in {numref}`wh18_Sali_1_4.png`, but at 35, 40, 45, and 50 m.
+Same as in {numref}`wh18_Sali_1_4.png`, but at 40, 45, 50 and 55m.
 ```
 
 ```{figure} figures/microcats/wh18_Sali_9_12.png
 :height: 1000px
 :align: center
 :name: wh18_Sali_9_12.png
-Same as in {numref}`wh18_Sali_1_4.png`, but at 55, 65, 75, and 85 m
+Same as in {numref}`wh18_Sali_1_4.png`, but at 65, 75, 85, and 95 m
 ```
 
 ```{figure} figures/microcats/wh18_Sali_13_16.png
 :height: 1000px
 :align: center
 :name: wh18_Sali_13_16.png
-Same as in {numref}`wh18_Sali_1_4.png`, but at 95, 105, 120, and 135 m.
-```
-
-```{figure} figures/microcats/wh18_Sali_17_20.png
-:height: 1000px
-:align: center
-:name: wh18_Sali_17_20.png
-Same as in {numref}`wh18_Sali_1_4.png`, but at 155, 1875, and 4713 m.
-```
-
-```{figure} figures/microcats/wh18_Sali_21.png
-:height: 1000px
-:align: center
-:name: wh18_Sali_21.png
-Same as in {numref}`wh18_Sali_1_4.png`, but at 4713 m.
+Same as in {numref}`wh18_Sali_1_4.png`, but at 105, 120, 135, and 155 m.
 ```
 
 ```{figure} figures/microcats/wh18_Sigma_1_4.png
@@ -366,42 +351,28 @@ Same as in {numref}`wh18_Sali_1_4.png`, but at 4713 m.
 :align: center
 :name: wh18_Sigma_1_4.png
 Potential densities ({math}`\sigma\theta`) from MicroCATs during WHOTS-18 deployment at 1.5, 7,
-15, and 25 m.
+15, and 25m.
 ```
 
 ```{figure} figures/microcats/wh18_Sigma_5_8.png
 :height: 1000px
 :align: center
 :name: wh18_Sigma_5_8.png
-Same as in {numref}`wh18_Sigma_1_4.png`, but at 35, 40, 45, and 50 m.
+Same as in {numref}`wh18_Sigma_1_4.png`, but at 40, 45, 50, and 55m.
 ```
 
 ```{figure} figures/microcats/wh18_Sigma_9_12.png
 :height: 1000px
 :align: center
 :name: wh18_Sigma_9_12.png
-Same as in {numref}`wh18_Sigma_1_4.png`, but at 55, 65, 75, and 85 m.
+Same as in {numref}`wh18_Sigma_1_4.png`, but at 65, 75, 85, and 95m.
 ```
 
 ```{figure} figures/microcats/wh18_Sigma_13_16.png
 :height: 1000px
 :align: center
 :name: wh18_Sigma_13_16.png
-Same as in {numref}`wh18_Sigma_1_4.png`, but at 95, 105, 120, and 135 m.
-```
-
-```{figure} figures/microcats/wh18_Sigma_17_20.png
-:height: 1000px
-:align: center
-:name: wh18_Sigma_17_20.png
-Same as in {numref}`wh18_Sigma_1_4.png`, but at 155, 1875, and 4713 m.
-```
-
-```{figure} figures/microcats/wh18_Sigma_21.png
-:height: 1000px
-:align: center
-:name: wh18_Sigma_21.png
-Same as in {numref}`wh18_Sigma_1_4.png`, but at 4713 m.
+Same as in {numref}`wh18_Sigma_1_4.png`, but at 105, 120, 135, and 155 m.
 ```
 
 ```{figure} figures/microcats/w1_18_contTS.png
@@ -433,7 +404,7 @@ Contour plots of salinity versus {math}`\sigma\theta` from SeaCATs/MicroCATs dur
 through WHOTS-18 deployments.
 ```
 
-```{figure} figures/microcats/plt_w18_aco_all.png
+```{figure} figures/microcats/plt_w18_aco.png
 :height: 1000px
 :align: center
 :name: plt_w18_aco_all.png
