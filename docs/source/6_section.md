@@ -6,7 +6,7 @@ pressure gradient down across the region to produce moderate local trades,
 increasing by the end of the cruise. There was no measurable precipitation
 during the deployment or recovery times. Conditions during the WHOTS-18
 deployment were favorable, with light ENE winds during the deployment. There
-were clear skies and no precipitation in the region , and small short- period
+were clear skies and no precipitation in the region, and small short-period
 wind waves.
 
 Currents were nearly 1 kt to the west in the upper 200 m. This westward flow
@@ -16,18 +16,18 @@ oscillations, were noticeable especially in vertical shear.
 
 CTD casts conducted near the WHOTS-18 buoy (Station 52) after deployment
 ({numref}`figure6.3`, {numref}`figure6.4`, {numref}`figure6.5`) displayed a
-subsurface salinity maximum between 60 and 80dbar and a mixed layer 60 to 80
+subsurface salinity maximum between 60 and 80 dbar and a mixed layer 60 to 80
 dbar deep.
 
-During the WHOTS-19 cruise (WHOTS-18 mooring recovery, 19 June 2023), , a
+During the WHOTS-19 cruise (WHOTS-18 mooring recovery, 19 June 2023), a
 high-pressure ridge far north of the Hawaiian Islands maintained a tight enough
 pressure gradient down across the region to produce moderate local trades,
 increasing by the end of the cruise. There was no measurable precipitation
 during the deployment or recovery times. Conditions during the WHOTS-19
 deployment on June 16-17 were favorable. There were 15-16 kt winds from the
 east during the deployment and a westward current of nearly 0.5 kt
-near the surface. There were clear skies and no precipitation in the region
-, and there were small short-period wind waves.
+near the surface. There were clear skies and no precipitation in the region,
+and there were small short-period wind waves.
 
 Currents were predominantly to the northwest in the upper 200 m. This westward
 flow seemed to be associated with a high sea level north of Station ALOHA. A
@@ -39,48 +39,45 @@ CTD casts conducted near the WHOTS-18 buoy (Station 52) before recovery
 subsurface salinity maximum between 130 and 150 dbar and a mixed layer of about
 40 dbar deep.
 
-```{warning} **FSM UPDATE TEXT HERE PLEASE**
-
 The temperature MicroCAT records during the WHOTS-18 deployment
 ({numref}`wh18_Temp_1_4.png` through {numref}`wh18_Temp_9_12.png`) show
-noticeable seasonal variability in the upper 100 m. A temperature decrease in
-October-November 2019 was evident in the instruments below 65 m. The salinity
-records ({numref}`wh18_Sali_1_4.png` through {numref}`wh18_Sali_9_12.png`) do
-not show an apparent seasonal cycle, but a salinity increase was recorded
-during October-November 2019, by the instruments between 40 and 85 m,
-coinciding with the temperature decrease. This increase was followed by a
-period of low salinity (less than 35 on average above 120 m) throughout
-2020-2021, with extreme values (nearly 34.4) above 120 m in November-December
-2019, and above 75 m in July-September 2020.
+noticeable seasonal variability in the upper 100 m. A temperature increase in
+January-February 2023 was evident in all the instruments. The salinity records
+({numref}`wh18_Sali_1_4.png` through {numref}`wh18_Sali_9_12.png`) do not show
+an apparent seasonal cycle, but a sudden drop in salinity was recorded in
+January 2023, with values mostly below 35 in the upper 40 m for the rest of the
+deployment. Another salinity drop was recorded by all the instruments after
+June 2023, reaching 34.5 values in the upper 95 m.
 
 {numref}`w1_18_contTS.png` through {numref}`w1_18_cont_S.png` show contours of
-the WHOTS-18 MicroCAT data in context with data from the previous 15
+the WHOTS-18 MicroCAT data in context with data from the previous 17
 deployments. The seasonal cycle is evident in the temperature record, with
 record temperatures (higher than 26°C) in the summer of 2004, and again in
 2014, 2015, 2017, 2019, and 2020. Salinities in the subsurface salinity maximum
 were relatively low during the first 6 years of the record, only to increase
 drastically after 2008 through 2015, with some lower salinity episodes in
 mid-2011 and early 2012. The salinity maximum extended to near the surface in
-early 2010, 2011, late2012-early 2013, and February-March 2013. Salinities in
+early 2010, 2011, late 2012-early 2013, and February-March 2013. Salinities in
 the salinity minimum decreased after 2015, showing low salinities above 100 m
 in 2016, 2017, 2018, and reaching record low values (34.4) in July-August 2019
-and July-September 2020. When plotted in {math}`\sigma\theta` coordinates
-({numref}`w1_18_cont_S.png`), the salinity maximum seems to be centered roughly
-between 24 and 24.5 {math}`\sigma\theta`.
+and July-September 2020. The salinities started to increase after 2021,
+reaching 35.4 values at the salinity maximum, and extending to the surface in
+October and November-December 2022. When plotted in {math}`\sigma\theta`
+coordinates ({numref}`w1_18_cont_S.png`), the salinity maximum seems to be
+centered roughly between 24 and 24.5 {math}`\sigma\theta`.
 
 Records from the WHOTS-18 MicroCATs ({numref}`plt_w18_aco_all.png`) deployed
-near the bottom of the mooring (4713 m) detected temperature and salinity
+near the bottom of the mooring (4710 m) detected temperature and salinity
 changes related to episodic ‘cold events’ apparently caused by bottom water
 moving between abyssal basins {cite}`Lukas2001`. These events are being
 monitored by instruments at the ALOHA Cabled Observatory (ACO) {cite}`Howe2011`
 , a deep water observatory located at the bottom of Station ALOHA (about 6
 nautical miles north from the WHOTS-18 anchor), since June 2011.
-{numref}`plt_w18_aco_all.png` shows temperature and salinity records from
-the WHOTS-18 MicroCATs superimposed on the ACO data. The MicroCAT data
-agreed with the temperature decrease and the salinity variability
-registered by ACO instruments during cold events in January, March and
-December 2020, and a minor events in August 2020 and September 2021.
-
+{numref}`plt_w18_aco_all.png` shows temperature and salinity records from the
+WHOTS-18 MicroCATs superimposed on the ACO data. The MicroCAT data agreed with
+the temperature decrease and the salinity variability registered by ACO
+instruments during a cold event in August 2022, and during minor events in
+October 2022 and late February 2023.
 
 {numref}`WHOTS-18_u_subplot.png` through {numref}`WHOTS-18_w_subplot.png` shows
 the time series of the zonal, meridional, and vertical currents recorded with
@@ -98,15 +95,16 @@ at 47.5 m.
 A comparison between the moored ADCP data and the shipboard ADCP data obtained
 during the WHOTS-18 cruise is shown in
 {numref}`whots18deploy_adcp_contour1.png`, and
-{numref}`whots18deploy_adcp_contour2.png`, and a similar comparison during the
-WHOTS-19 cruise is shown in {numref}`whots18recover_adcp_contour1.png` and
-{numref}`whots18recover_adcp_contour2.png`. Some differences were seen,
-especially in the zonal component, maybe due to the mooring motion, which was
-not removed from the data. Comparisons between the available shipboard ADCP
-from HOT-316 to -332 cruises and the mooring data are shown in
-{numref}`wh18_moor_ship_ADCP_comp_300_1.png` through
+{numref}`whots18deploy_adcp_contour2.png`. A similar comparison during the
+WHOTS-19 cruise was not possible because both moored ADCPs stopped working
+before the mooring was recovered. The shipboard ADCP data during the WHOTS-19
+cruise are shown in {numref}`whots18recover_adcp_contour1.png` and
+{numref}`whots18recover_adcp_contour2.png`. Some differences were seen during
+the WHOTS-18 cruise comparisons, especially in the zonal component, maybe due
+to the mooring motion, which was not removed from the data. Comparisons between
+the available shipboard ADCP from HOT-339 to -342 cruises and the mooring data
+are shown in {numref}`wh18_moor_ship_ADCP_comp_300_1.png` through
 {numref}`wh18_moor_ship_ADCP_comp_600_2.png`.
-```
 
 The Xeos-GPS receiver registered the WHOTS-18 buoy motion, and its positions
 are plotted in {numref}`wh18xeos_pos.png`. The buoy remained predominantly
@@ -521,15 +519,16 @@ but for vertical velocity component.
 
 ## Moored and Shipboard ADCP comparisons
 
-The contour plots in {numref}`whots18deploy_adcp_contour1.png`,
-{numref}`whots18deploy_adcp_contour2.png`,
-{numref}`whots18recover_adcp_contour1.png`, and
-{numref}`whots18recover_adcp_contour2.png` present a comparison of the zonal
-and meridional current components captured by both the shipboard 75 kHz ADCP
-from the Oscar Sette and the moored 300 kHz ADCP at the WHOTS-18 mooring site.
-These plots provide insights into the consistency and discrepancies between
-shipboard and moored ADCP measurements throughout the WHOTS-18 and WHOTS-19
-cruises.
+The contour plots in {numref}`whots18deploy_adcp_contour1.png`, and
+{numref}`whots18deploy_adcp_contour2.png` present a comparison of the zonal and
+meridional current components captured by both the shipboard 75 kHz ADCP from
+the Oscar Sette and the moored 300 kHz ADCP at the WHOTS-18 mooring site. These
+plots provide insights into the consistency and discrepancies between shipboard
+and moored ADCP measurements throughout the WHOTS-18 cruise. Similar moored
+ADCP comparisons with the WHOTS-19 cruise shipboard ADCP
+({numref}`whots18recover_adcp_contour1.png`, and
+{numref}`whots18recover_adcp_contour2.png`) were not possible because the
+moored ADCPs stopped working before the mooring was recovered.
 
 ### WHOTS-18 Deployment Comparison
 
@@ -554,15 +553,13 @@ dynamic activity also observed in the zonal component.
 
 ### WHOTS-19 Deployment Comparison
 
-During the WHOTS-19 cruise, comparisons of the shipboard ADCP zonal and
-meridional currents are shown in {numref}`whots18recover_adcp_contour1.png` and
-{numref}`whots18recover_adcp_contour2.png`. The zonal current
-reveals a predominantly westward flow throughout the deployment period, with
-occasional eastward pulses, particularly around day 168 and day 169. These
-eastward flows are concentrated mainly between 40 to 70 meters and appear
-prominently at different times during the deployment. By day 170, the flow
-returns to a more consistent westward direction across all depths, indicating a
-shift back to the dominant current pattern.
+WHOTS-19 cruise shipboard ADCP zonal and meridional currents are shown in
+{numref}`whots18recover_adcp_contour1.png` and
+{numref}`whots18recover_adcp_contour2.png`. The zonal current reveals a
+predominantly westward flow throughout the deployment period, with occasional
+eastward pulses, particularly around day 168 and day 169. The eastward flow on
+day 168 is concentrated mainly between 40 to 100 m. Other eastward flows appear
+prominently at different times during the deployment.
 
 The meridional current displays alternating northward and southward flows,
 which are more variable compared to the zonal currents. Between day 168 and day
@@ -571,8 +568,8 @@ and southward patterns, particularly in the upper 70 meters. Below 70 meters,
 the variability in meridional flow becomes less pronounced, with smoother
 transitions between northward and southward flows.
 
-One important note is that the 300 kHz and the 600 kHz moored ADCP experienced
-operational interruptions, and we couldn't make a direct comparison between the
+As mentioned above, the 300 kHz and the 600 kHz moored ADCP experienced
+operational failures, and we couldn't make a direct comparison between the
 Shipboard ADCP and Moored ADCP data for the WHOTS-19 deployment cruise. The
 300 kHz instrument stopped recording on January 24, 2023, and the 600 kHz
 instrument stopped on February 10, 2023, likely due to power loss caused by
