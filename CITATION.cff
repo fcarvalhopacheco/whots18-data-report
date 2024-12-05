@@ -91,8 +91,8 @@ preferred-citation:
       family-names: Galbraith
       affiliation: Woods Hole Oceanographic Institution - Woods Hole, MA
   start: 1
-  end: xxx
-  pages: xxx
+  end: 121
+  pages: 121
   title: "Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2022 - 2023, Data Report #18"
   year: "2024"
   institution:
@@ -105,17 +105,20 @@ preferred-citation:
   date-released: 2024-11-06
   number: xxxxxx
   license: CC-BY-4.0
-  collection-doi: xx.xxxx/zenodo.xxxxxxx
   url: http://whots18-data-report.readthedocs.io/
   doi: xx.xxxxx/zenodo.xxxxxxx
   publisher:
-    name: "School of Ocean and Earth Science and Technology (SOEST)"
-  notes: "This publication is based upon observations from the WHOI-Hawaii Ocean Time-series Site (WHOTS) mooring, 
-  which is supported in part by the National Oceanic and Atmospheric Administration (NOAA) Global Ocean Monitoring and 
-  Observing (GOMO) Program through the Cooperative Institute for the North Atlantic Region (CINAR) under Cooperative 
-  Agreement NA14OAR4320158. NOAA CPO FundRef number 100007298 to the Woods Hole Oceanographic Institution, and by 
-  National Science Foundation grants OCE-0327513,OCE-0752606, OCE-0926766, OCE-1260164 and OCE-1756517 to the University 
-  of Hawaii for the Hawaii Ocean Time-series. This is SOEST contribution number XxXxXxXxX"
+    name: "School of Ocean and Earth Science and Technology (SOEST)" notes:
+    "This publication is based upon observations from the WHOI-Hawaii Ocean
+    Time-series Site (WHOTS) mooring, which is supported in part by the
+    National Oceanic and Atmospheric Administration (NOAA) Global Ocean
+    Monitoring and Observing (GOMO) Program through the Cooperative Institute
+    for the North Atlantic Region (CINAR) under Cooperative Agreement
+    NA14OAR4320158. NOAA CPO FundRef number 100007298 to the Woods Hole
+    Oceanographic Institution, and by National Science Foundation grants
+    OCE-0327513,OCE-0752606, OCE-0926766, OCE-1260164 , OCE-1756517 and
+    OCE-2241005 to the University of Hawaii for the Hawaii Ocean
+    Time-series. This is SOEST contribution number XxXxXxXxX"
   identifiers:
     - type: doi
       value: "xx.xxxx/zenodo.xxxxxxx"
@@ -219,3 +222,25 @@ references:
         value: "OCE-1756517"
     title: "Hawaii Ocean Time-series (HOT): 2018-2023"
     url: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1756517&HistoricalAwards=false"
+
+  - type: grant
+    authors:
+      - family-names: White
+        given-names: Angelicque
+        email: "aewhite@hawaii.edu"
+      - family-names: Karl
+        given-names: David
+        email: "dkarl@hawaii.edu"
+      - family-names: Potemra
+        given-names: James
+        email: "jimp@hawaii.edu"
+    date-released: 2023-08-01
+    institution:
+      name: "National Science Foundation"
+    identifiers:
+      - description: "NSF award number."
+        type: other
+        value: "OCE-2241005"
+    title: "Hawaii Ocean Time-series (HOT): 2023-2028"
+    url: "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2241005"
+
