@@ -1,5 +1,5 @@
 #  Woods Hole - Hawaii Ocean Time-series Site
-[<img src="https://github.com/hot-dogs/whots18-data-report/blob/main/docs/source/_static/_images/new_logo_HOT.png" height="200" />](https://hahana.soest.hawaii.edu/hot/)
+[<img src="https://github.com/hot-dogs/whots18-data-report/raw/main/docs/source/_static/_images/new_logo_HOT.png" alt="HOT Logo" height="200"/>](https://hahana.soest.hawaii.edu/hot/)
 
 
 [![Documentation Status](https://readthedocs.org/projects/whots18-data-report/badge/?version=latest)](https://whots-annual-report.readthedocs.io/projects/whots18-data-report/en/latest/?badge=latest)
@@ -9,33 +9,34 @@
 
 
 ## Documentation 
+
 [*Hydrographic observations at the Woods Hole Oceanographic Institution Hawaii
 Ocean Time-Series Site (WHOTS): 2022 - 2023, Data Report #18*](http://whots18-data-report.readthedocs.io/)
 
 ## Abstract
 
 In 2003, [Robert Weller](https://www.whoi.edu/profile/rweller/) ([Woods Hole
-Oceanographic Institution [WHOI]](https://www.whoi.edu))
-, [Albert Plueddemann](https://www.whoi.edu/profile/aplueddemann/) 
-([WHOI](https://www.whoi.edu)), and
-[Roger Lukas](http://www.soest.hawaii.edu/oceanography/faculty/rlukas/)
-([The University of Hawaii [UH]](https://manoa.hawaii.edu)) proposed to establish 
-a [long-term surface mooring at the Hawaii Ocean Time-series (HOT)](http://www.soest.hawaii.edu/whots/)
-[Station ALOHA (22°45’N, 158°W)](https://hahana.soest.hawaii.edu/stationaloha/)
-to provide sustained, high-quality air-sea fluxes and the associated upper
-ocean response as a coordinated part of the HOT program, and as an element of
-the global array of ocean reference stations supported by the National Oceanic
-and Atmospheric Administration’s (NOAA) Office of Climate Observation. 
+Oceanographic Institution [WHOI]](https://www.whoi.edu)) , [Albert
+Plueddemann](https://www.whoi.edu/profile/aplueddemann/)
+([WHOI](https://www.whoi.edu)), and [Roger
+Lukas](http://www.soest.hawaii.edu/oceanography/faculty/rlukas/) ([The
+University of Hawaii [UH]](https://manoa.hawaii.edu)) proposed to establish a
+[long-term surface mooring at the Hawaii Ocean Time-series
+(HOT)](http://www.soest.hawaii.edu/whots/) [Station ALOHA (22°45’N,
+158°W)](https://hahana.soest.hawaii.edu/stationaloha/) to provide sustained,
+high-quality air-sea fluxes and the associated upper ocean response as a
+coordinated part of the HOT program, and as an element of the global array of
+ocean reference stations supported by the National Oceanic and Atmospheric
+Administration’s (NOAA) Office of Climate Observation. 
 
-The WHOTS-18 mooring was deployed on 
-July 4, 2022
- ([WHOTS-18 cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html)) 
-and was recovered on June { (cookiecutter.current_whots_recovery_date|string)[1:2]}},  2023 
-([WHOTS-19 cruise](http://www.soest.hawaii.edu/whots/wh19_dep.html)). 
-The cruises were aboard the R/V Oscar Elton Settle. The WHOTS-19 mooring was 
-deployed on June  7, 2023, during the 
-[WHOTS-19 cruise](http://www.soest.hawaii.edu/whots/wh19_dep.html) and was 
-recovered on June 6, 2024. 
+The WHOTS-18 mooring was deployed on July 24, 2022 ([WHOTS-18
+cruise](http://www.soest.hawaii.edu/whots/wh18_dep.html)) and was recovered on
+June 19,  2023 ([WHOTS-19
+cruise](http://www.soest.hawaii.edu/whots/wh19_dep.html)). The cruises were
+aboard the R/V Oscar Elton Settle. The WHOTS-19 mooring was deployed on June
+17, 2023, during the [WHOTS-19
+cruise](http://www.soest.hawaii.edu/whots/wh19_dep.html) and was recovered on
+June 6, 2024. 
 
 This report documents and describes the oceanographic observations made on the 
 WHOTS-18 mooring for nearly one year and ten months and from shipboard measurements
@@ -62,7 +63,7 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
 - `Bibtex`
 
 ```bibtex
-@techreport{Carvalho_Pacheco_Hydrographic_Observations_at_2022,
+@techreport{Carvalho_Pacheco_Hydrographic_Observations_at_2024,
   author = {Carvalho Pacheco, Fernando and Santiago-Mandujano, Fernando and Potemra, James T. and Plueddemann, Albert J. and Weller, Robert A. and Fitzgerald, Daniel and Galbraith, Nancy R.},
   doi = {10.xxxx/zenodo.xxxxxxxx},
   institution = {School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI},
@@ -72,12 +73,12 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
   note = { This publication is based upon observations from the WHOI-Hawaii
   Ocean Time-series Site (WHOTS) mooring, which is supported in part by the
   National Oceanic and Atmospheric Administration (NOAA) Global Ocean
-  Monitoring and Observing (GOMO) Program through the Cooperative Institute
-  for the North Atlantic Region (CINAR) under Cooperative Agreement
-  NA14OAR4320158. NOAA CPO FundRef number 100007298 to the Woods Hole
-  Oceanographic Institution, and by National Science Foundation grants 
-  OCE-0327513,OCE-0752606, OCE-0926766, OCE-1260164 and OCE-1756517 to the 
-  University of Hawaii for the Hawaii Ocean Time-series. 
+  Monitoring and Observing (GOMO) Program through the Cooperative Institute for
+  the North Atlantic Region (CINAR) under Cooperative Agreement NA14OAR4320158.
+  NOAA CPO FundRef number 100007298 to the Woods Hole Oceanographic
+  Institution, and by National Science Foundation grants
+  OCE-0327513,OCE-0752606, OCE-0926766, OCE-1260164, OCE-1756517 and
+  OCE-2241005 to the University of Hawaii for the Hawaii Ocean Time-series.
   This is SOEST contribution number xXxXxX.}
 
 }
@@ -92,13 +93,6 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
 - Thanks are due to all the personnel of the
   [Upper Ocean Processes Group (UOP)](http://uop.whoi.edu) at WHOI who prepared
   the WHOTS buoy’s instrumentation and mooring;
-
-- To [Kelsey Maloney](https://www.linkedin.com/in/kelsey-maloney-4a18291a4),
-  [Tully Rohrer](https://hahana.soest.hawaii.edu/hot/staff1.html),
-  [Noah Howins](https://www.soest.hawaii.edu/oceanography/profile/Howins-Noah/),
-  [Ryan Tabata](https://www.linkedin.com/in/ryan-tabata-69215486/), and
-  [James Harris](https://www.linkedin.com/in/james-harris-661170174/)
-  for their technical assistance with the moored and shipboard instrumentation;
 
 - We gratefully acknowledge the support from the colleagues at
   [Sea-Bird](https://www.seabird.com) to maintain the quality of the CTD data.
@@ -122,9 +116,11 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
   [OCE-0926766](https://www.nsf.gov/awardsearch/showAward?AWD_ID=0926766&HistoricalAwards=false)
   ,
   [OCE-1260164](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1260164&HistoricalAwards=false)
-  and
+  ,
   [OCE-1756517](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1756517&HistoricalAwards=false)
-  to the University of Hawaii for the Hawaii Ocean Time-series.
+  ,
+  and 
+  [OCE-2241005](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2241005) to the University of Hawaii at Manoa for the Hawaii Ocean Time-series.
 
 - This is SOEST contribution number xxxxx.
 
