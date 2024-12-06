@@ -108,7 +108,8 @@ preferred-citation:
   url: http://whots18-data-report.readthedocs.io/
   doi: 10.5281/zenodo.14285350
   publisher:
-    name: "School of Ocean and Earth Science and Technology (SOEST)" notes:
+    name: "School of Ocean and Earth Science and Technology (SOEST)" 
+  notes:
     "This publication is based upon observations from the WHOI-Hawaii Ocean
     Time-series Site (WHOTS) mooring, which is supported in part by the
     National Oceanic and Atmospheric Administration (NOAA) Global Ocean
