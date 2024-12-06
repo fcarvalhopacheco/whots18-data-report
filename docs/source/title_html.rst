@@ -6,8 +6,8 @@
 .. image:: https://readthedocs.org/projects/whots18-data-report/badge/?version=latest
    :target: https://whots-annual-report.readthedocs.io/projects/whots18-data-report/en/latest/?badge=latest
 
-.. image:: https://zenodo.org/badge/doi/xx.xxxx/zenodo.xxxxxx.svg
-   :target: https://doi.org/xx.xxxx/zenodo.xxxxxxx
+.. image:: https://zenodo.org/badge/doi/10.5281/zenodo.14285350.svg
+   :target: https://doi.org/10.5281/zenodo.14285350
 
 .. image:: https://github.com/hot-dogs/whots18-data-report/actions/workflows/cff-validator.yml/badge.svg
    :target: https://github.com/hot-dogs/whots18-data-report/actions/workflows/cff-validator.yml
@@ -33,7 +33,7 @@
    18
 
 :Citation:
-    Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J., Weller, R. A., Fitzgerald, D., & Galbraith, N. R. (2024). Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2022 - 2023, Data Report #18. School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI. https://doi.org/xx.xxxx/zenodo.xxxxxxx
+    Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J., Weller, R. A., Fitzgerald, D., & Galbraith, N. R. (2024). Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2022 - 2023, Data Report #18. School of Ocean and Earth Science and Technology (SOEST), Department of Oceanography, University of Hawai‘i at Mānoa, Honolulu, HI. https://doi.org/10.5281/zenodo.14285350
 
 :Contact:
 
@@ -52,13 +52,6 @@
 - Thanks are due to all the personnel of the
   `Upper Ocean Processes Group (UOP) <http://uop.whoi.edu>`_ at WHOI who
   prepared the WHOTS buoy’s instrumentation and mooring;
-
-- To `Kelsey Maloney <https://www.linkedin.com/in/kelsey-maloney-4a18291a4>`_,
-  `Tully Rohrer <https://hahana.soest.hawaii.edu/hot/staff1.html>`_,
-  `Noah Howins <https://www.soest.hawaii.  edu/oceanography/profile/Howins-Noah/>`_,
-  `Ryan Tabata <https://www.linkedin.com/in/ryan-tabata-69215486/>`_, and
-  `James Harris <https://www.linkedin.com/in/james-harris-661170174/>`_
-  for their technical assistance with the moored and shipboard instrumentation;
 
 - We gratefully acknowledge the support from the colleagues at
   `Sea-Bird <https://www.seabird.com>`_ to maintain the quality of the CTD
@@ -83,11 +76,9 @@
   `OCE-0926766 <https://www.nsf.gov/awardsearch/showAward?AWD_ID=0926766&HistoricalAwards=false>`_
   ,
   `OCE-1260164 <https://www.nsf.gov/awardsearch/showAward?AWD_ID=1260164&HistoricalAwards=false>`_
-  and
+  , 
   `OCE-1756517 <https://www.nsf.gov/awardsearch/showAward?AWD_ID=1756517&HistoricalAwards=false>`_
-  to the University of Hawaii for the Hawaii Ocean Time-series.
+  and 
+  `OCE-2241005 <https://www.nsf.gov/awardsearch/showAward?AWD_ID=2241005>`_ to the University of Hawaii at Manoa for the Hawaii Ocean Time-series.
 
 - This is SOEST contribution number xXxXxXxX.
-
-|
-
