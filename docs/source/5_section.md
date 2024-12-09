@@ -436,7 +436,7 @@ service report indicated that the issue was not with the instrument
 electronics, but rather with the corroded connectors. Unfortunately a
 post-cruise compass calibration could not be performed.
 
-```{figure} figures/adcp_moored/adcp_whot18cmpserr_sn4891.png
+```{figure} figures/adcp_moored/adcp_whot18cmpserr_sn4891.jpg
 :height: 600px
 :align: center
 :name: figure5.16
@@ -447,7 +447,7 @@ post-cruise compass calibration could not be performed due to corrosion of the
 bulkhead connectors following the cruise.
 ```
 
-```{figure} figures/adcp_moored/adcp_whot18cmpserr_sn1825.png
+```{figure} figures/adcp_moored/adcp_whot18cmpserr_sn1825.jpg
 :height: 600px
 :align: center
 :name: figure5.17
@@ -507,10 +507,10 @@ deployments, are shown in {numref}`table-21`.
 :align: center
 :name: figure5.18
 
-Temperature record from the 300 kHz ADCP during WHOTS-18 mooring (top panel).
-The bottom panel shows the beginning and end of the record, with the green
+temperature record from the 300 khz adcp during whots-18 mooring (top panel).
+the bottom panel shows the beginning and end of the record, with the green
 vertical line representing the in-water time during deployment and out-of-water
-recovery time. The red line represents the anchor release and acoustic release
+recovery time. the red line represents the anchor release and acoustic release
 trigger for deployment and recovery, respectively.
 ```
 
