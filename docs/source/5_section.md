@@ -447,6 +447,7 @@ post-cruise compass calibration could not be performed due to corrosion of the
 bulkhead connectors following the cruise.
 ```
 
+
 ```{figure} figures/adcp_moored/adcp_whot18cmpserr_sn1825.png
 :height: 600px
 :align: center
