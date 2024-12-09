@@ -436,7 +436,7 @@ service report indicated that the issue was not with the instrument
 electronics, but rather with the corroded connectors. Unfortunately a
 post-cruise compass calibration could not be performed.
 
-````{figure} /figures/adcp_moored/adcp_whot18cmpserr_sn4891.png
+```{figure} figures/adcp_moored/adcp_whot18cmpserr_sn4891.png
 :height: 600px
 :align: center
 :name: figure5.16
@@ -445,9 +445,9 @@ Results of the pre-cruise compass calibration, conducted on June 28, 2022, for
 ADCP SN 4891 at the University of Hawai'i at Manoa. Unfortunately, a
 post-cruise compass calibration could not be performed due to corrosion of the
 bulkhead connectors following the cruise.
-````
+```
 
-````{figure} figures/adcp_moored/adcp_whot18cmpserr_sn1825.png
+```{figure} figures/adcp_moored/adcp_whot18cmpserr_sn1825.png
 :height: 600px
 :align: center
 :name: figure5.17
@@ -456,7 +456,7 @@ Results of the pre-cruise compass calibration, conducted on June 28, 2022, for
 ADCP SN 1825 at the University of Hawai'i at Manoa. Unfortunately, a
 post-cruise compass calibration could not be performed due to corrosion of the
 bulkhead connectors following the cruise.
-````
+```
 
 ### ADCP Configurations
 
