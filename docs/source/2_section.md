@@ -16,19 +16,18 @@ the cruise are listed in
 :align: center
 :name: table-1
 
-|      **Name**       |     **Title or function**     | **Affiliation** |
-| :-----------------: | :---------------------------: | :-------------: |
-| Plueddeman, Albert  |        Chief Scientist        |      WHOI       |
-|   Graham, Raymond   |      Research Associate       |      WHOI       |
-|    Llanos, Nico     | Senior Engineering Assistant  |      WHOI       |
-|   Fitzgerald, Dan   | Marine Electronics Technician |       UH        |
-|    Harris, James    |       Student Assistant       |       UH        |
-|   Maloney, Kelsey   |       Student Assistant       |       UH        |
-|    Howins, Noah     |    Undergraduate Volunteer    |       UH        |
-| Penunuri, Alexander |       Graduate Student        |       CU        |
-|    Conner, Kyle     |       Graduate Student        |       UH        |
-|    Rohrer, Tully    |      Research Associate       |       UH        |
-
+|      **Name**       |               **Title or Function**              | **Affiliation** |
+| :-----------------: | :----------------------------------------------: | :-------------: |
+| Plueddeman, Albert  |               Chief Scientist                    |      WHOI       |
+|   Graham, Raymond   |            Research Associate                    |      WHOI       |
+|    Llanos, Nico     |        Senior Engineering Assistant              |      WHOI       |
+|   Fitzgerald, Dan   |        Marine Electronics Technician             |       UH        |
+|    Harris, James    |                Student Assistant                 |       UH        |
+|   Maloney, Kelsey   |     Scientific Research Volunteer                |       UH        |
+|    Howins, Noah     |            Undergraduate Volunteer               |       UH        |
+| Penunuri, Alexander |                Graduate Student                  |       CU        |
+|    Conner, Kyle     |                Graduate Student                  |       UH        |
+|    Rohrer, Tully    |             Research Associate                   |       UH        |
 ```
 
 The UH group conducted shipboard oceanographic observations during the
@@ -137,7 +136,7 @@ The scientific personnel that participated during the cruise are listed in
 | Santiago-Mandujano, Fernando |      Research Associate       |       UH        |
 |       Fitzgerald, Dan        | Marine Electronics Technician |       UH        |
 |        Rohrer, Tully         |      Research Associate       |       UH        |
-|       Maloney, Kelsey        |       Student Assistant       |       UH        |
+|   Maloney, Kelsey            | Scientific Research Volunteer |       UH        |
 |       Adkison, Camille       |       Graduate Student        |       UH        |
 |       Dale, Elizabeth        |          Technician           |      WHOI       |
 
