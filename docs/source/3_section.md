@@ -82,13 +82,15 @@ their internal clock. To produce a spike in the ADCP data, each instrument’s
 transducer was rubbed gently by hand for 20 seconds ({numref}`table-9` , and
 {numref}`table-10`).
 
-```{figure} figures/tables/WHOTS18_Instrument_Deployment_Info.pdf
+```{figure} figures/tables/WHOTS18_Instrument_Deployment_Info.png
 :width: 1000%
 :align: center
 :name: mooring_subsurface
+
 WHOTS-18 mooring subsurface instrument deployment information. All times
 are in UTC
 ```
+
 
 ```{table} WHOTS-18 mooring C-T and ADCP Instruments recovery information. All times are in UTC (mm/dd/yy hh:mm:ss). Sea-Bird 37 Serial Number (SN).
 :name: table-8
