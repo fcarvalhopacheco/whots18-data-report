@@ -156,10 +156,10 @@ latex_domain_indices = True
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = "whots-epub-test"
-epub_author = "Fernando Carvalho Pacheco"
-epub_publisher = "Fernando Carvalho Pacheco"
-epub_copyright = f"2024-12-05-{datetime.now().year}, Fernando Carvalho Pacheco"
+epub_title = "whots18-data-report-epub"
+epub_author = "Hawaii Ocean Time-series (HOT)"
+epub_publisher = "Hawaii Ocean Time-Seirs (HOT)"
+epub_copyright = f"{datetime.now().year}, Fernando Carvalho Pacheco"
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ["search.html"]
