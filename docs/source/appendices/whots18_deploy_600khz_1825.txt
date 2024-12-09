@@ -1,0 +1,422 @@
+
+[BREAK Wakeup A]
+WorkHorse Broadband ADCP Version 51.40
+Teledyne RD Instruments (c) 1996-2010
+All Rights Reserved.
+>
+>TS 60/07/22,22:47:44
+>?
+Available Menus:
+DEPLOY? ------------------ Deployment Commands
+SYSTEM? ------------------ System Control, Data Recovery and Testing Commands
+
+>SYSTEM
+System Control, Data Recovery and Testing Commands:
+AC ----------------------- Output Active Fluxgate & Tilt Calibration data
+AF ----------------------- Field calibrate to remove hard/soft iron error
+AR ----------------------- Restore factory fluxgate calibration data
+AX ----------------------- Examine compass performance
+AZ ----------------------- Zero pressure reading
+
+CB = 411 ----------------- Serial Port Control (Baud; Par; Stop)
+CP # --------------------- Polled Mode (0 = NORMAL, 1 = POLLED)
+CZ  ---------------------- Power Down Instrument
+
+FC ----------------------- Clear Fault Log
+FD ----------------------- Display Fault Log
+
+OL ----------------------- Display Features List
+
+PA ----------------------- Pre-Deployment Tests
+PC1 ---------------------- Beam Continuity
+PC2 ---------------------- Sensor Data
+PS0 ---------------------- System Configuration
+PS3 ---------------------- Transformation Matrices
+
+RR ----------------------- Recorder Directory
+RF ----------------------- Recorder Space used/free (bytes)
+RY ----------------------- Upload Recorder Files to Host
+
+>ol                             FEATURES
+---------------------------------------------------------------------
+Feature                                                     Installed
+---------------------------------------------------------------------
+BT-HA (High Accuracy 0.4%)                                      Yes
+Water Profile                                                   Yes
+High Resolution Water Modes                                      No
+LADCP/Surface Track/WM15                                         No
+Wave Gauge Acquisition                                           No
+Shallow Bottom Mode                                              No
+High Rate Pinging                                                No
+Narrow Bandwidth only (WB1)                                      No
+BT-RA (Reduced Accuracy 1.15%)                                   No
+
+See your technical manual or contact TRDI for information on how to
+install additional capability in your WorkHorse.
+
+>p50  ERR 010:  UNRECOGNIZED COMMAND
+>ps0
+  Instrument S/N:  1825
+       Frequency:  614400 HZ
+   Configuration:  4 BEAM, JANUS
+     Match Layer:  10
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  UP  
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients:
+              c3 = +1.762294E-13
+              c2 = +3.330826E-08
+              c1 = +1.389532E-01
+          Offset = -4.652679E+00
+
+Temp Sens Offset:  -0.13 degrees C
+
+    CPU Firmware:  51.40 [0]
+   Boot Code Ver:  Required:  1.16   Actual:  1.16
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   5
+
+Board Serial Number Data:
+   E4  00 00 02 00 20 C0  09 DSP727-2001-03F
+   0D  00 00 02 48 A7 98  09 REC727-1000-03A
+   7E  00 00 02 00 4D 0B  09 PIO727-3000-03C
+   97  00 00 02 00 3F BB  09 CPU727-2000-00H
+>rrwht16
+Recorder Directory:
+Volume serial number for device #1 is 206f-6241
+
+  WHT16000 000               0 09-27-19   0:56:50a r  a [    0]
+  WHT16001 000               0 09-27-19   2:24:58a r  a [    0]
+  WHT16002 000        10348242 01-21-20   9:10:02p r  a [    2]
+  WHT16003 000           11118 01-22-20   0:09:40a r  a [ 2529]
+  WHT16004 000           53628 01-22-20   1:55:24p r  a [ 2532]
+  WHT16005 000           17658 01-22-20   6:31:06p r  a [ 2546]
+  WHT16006 000            7848 01-22-20   8:37:04p r  a [ 2551]
+  WHT16007 000             654 01-22-20   8:53:56p r  a [ 2553]
+  WHT16008 000            7194 01-22-20  10:49:20p r  a [ 2554]
+  WHT16009 000            3924 04-17-20   1:01:30p r  a [ 2556]
+  WHT16010 000               0 04-17-20   1:59:10p r  a [    0]
+  WHT16011 000             654 04-17-20   2:44:32p r  a [ 2557]
+  WHT16012 000            1962 04-17-20   3:33:42p r  a [ 2558]
+  WHT16013 000            3270 04-17-20   4:47:48p r  a [ 2559]
+  WHT16014 000               0 04-17-20   5:16:56p r  a [    0]
+  WHT16015 000            1308 04-17-20   6:19:26p r  a [ 2560]
+  WHT16016 000             654 04-17-20   6:51:58p r  a [ 2561]
+  WHT16017 000            2616 04-17-20   7:40:22p r  a [ 2562]
+  WHT16018 000            6540 04-17-20  10:00:42p r  a [ 2563]
+
+  Bytes used on device #1 = 10467270
+Total capacity   =  256352256 bytes
+Total bytes used =   10467270 bytes in 19 files
+Total bytes free =  245854208 bytes
+
+>cf11101
+>ea0
+>eb0954
+>?
+Available Menus:
+DEPLOY? ------------------ Deployment Commands
+SYSTEM? ------------------ System Control, Data Recovery and Testing Commands
+
+>deploy
+Deployment Commands:
+BP = 000 ----------------- Bottom Track Pings per Ensemble
+
+CF = 11101 --------------- Flow Ctrl (EnsCyc;PngCyc;Binry;Ser;Rec)
+CK ----------------------- Keep Parameters as USER Defaults
+CR # --------------------- Retrieve Parameters (0 = USER, 1 = FACTORY)
+CS ----------------------- Start Deployment
+
+EA = +00000 -------------- Heading Alignment (1/100 deg)
+EB = +00954 -------------- Heading Bias (1/100 deg)
+ED = 00475 --------------- Transducer Depth (0 - 65535 dm)
+ES = 35 ------------------ Salinity (0-40 pp thousand)
+EX = 11111 --------------- Coord Transform (Xform: Type,Tilts,3 Bm,Map)
+EZ = 1111101 ------------- Sensor Source (C,D,H,P,R,S,T)
+
+RE ----------------------- Recorder ErAsE
+RN ----------------------- Set Deployment Name
+
+TE = 00:10:00.00 --------- Time per Ensemble (hrs:min:sec.sec/100)
+TF = **/**/**,**:**:** --- Time of First Ping (yr/mon/day,hour:min:sec)
+TP = 00:02.00 ------------ Time per Ping (min:sec.sec/100)
+TS = 60/07/22,22:50:30 --- Time Set (yr/mon/day,hour:min:sec)
+
+WD = 111 100 000 --------- Data Out (Vel,Cor,Amp; PG,St,P0; P1,P2,P3)
+WF = 0088 ---------------- Blank After Transmit (cm)
+WN = 025 ----------------- Number of depth cells (1-128)
+WP = 00080 --------------- Pings per Ensemble (0-16384)
+WS = 0200 ---------------- Depth Cell Size (cm)
+WV = 175 ----------------- Mode 1 Ambiguity Vel (cm/s radial)
+
+>RE
+Must use 'RE ErAsE' or 're ErAsE' to erase recorder!
+
+Recorder not erased.
+
+>RE ErAsE  erasing...
+Recorder erased.
+
+>rrwht16
+Recorder Directory:
+Volume serial number for device #1 is 206f-6241
+
+  No files found.
+
+  Bytes used on device #1 = 0
+Total capacity   =  256352256 bytes
+Total bytes used =          0 bytes in 0 files
+Total bytes free =  256352256 bytes
+
+>cf11101
+>ea0
+>eb0954
+>ed0475
+>es35
+>ex11111
+>ez1111101
+>wa70
+>wb0
+>wd111100000
+>wf0088
+>wl2,6
+>wp80
+>ws0200
+>wn25
+>wv175
+>te:00:10:00.00
+>tp00:02:00
+>tg20220722,23:59:59ERR:  TF date/time is more than a year!
+  ERR:  Bad command parameters!Out of range! 
+>?
+Available Menus:
+DEPLOY? ------------------ Deployment Commands
+SYSTEM? ------------------ System Control, Data Recovery and Testing Commands
+
+>SYSTEM
+System Control, Data Recovery and Testing Commands:
+AC ----------------------- Output Active Fluxgate & Tilt Calibration data
+AF ----------------------- Field calibrate to remove hard/soft iron error
+AR ----------------------- Restore factory fluxgate calibration data
+AX ----------------------- Examine compass performance
+AZ ----------------------- Zero pressure reading
+
+CB = 411 ----------------- Serial Port Control (Baud; Par; Stop)
+CP # --------------------- Polled Mode (0 = NORMAL, 1 = POLLED)
+CZ  ---------------------- Power Down Instrument
+
+FC ----------------------- Clear Fault Log
+FD ----------------------- Display Fault Log
+
+OL ----------------------- Display Features List
+
+PA ----------------------- Pre-Deployment Tests
+PC1 ---------------------- Beam Continuity
+PC2 ---------------------- Sensor Data
+PS0 ---------------------- System Configuration
+PS3 ---------------------- Transformation Matrices
+
+RR ----------------------- Recorder Directory
+RF ----------------------- Recorder Space used/free (bytes)
+RY ----------------------- Upload Recorder Files to Host
+
+>PS0
+  Instrument S/N:  1825
+       Frequency:  614400 HZ
+   Configuration:  4 BEAM, JANUS
+     Match Layer:  10
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  UP  
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients:
+              c3 = +1.762294E-13
+              c2 = +3.330826E-08
+              c1 = +1.389532E-01
+          Offset = -4.652679E+00
+
+Temp Sens Offset:  -0.13 degrees C
+
+    CPU Firmware:  51.40 [0]
+   Boot Code Ver:  Required:  1.16   Actual:  1.16
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   5
+
+Board Serial Number Data:
+   E4  00 00 02 00 20 C0  09 DSP727-2001-03F
+   0D  00 00 02 48 A7 98  09 REC727-1000-03A
+   7E  00 00 02 00 4D 0B  09 PIO727-3000-03C
+   97  00 00 02 00 3F BB  09 CPU727-2000-00H
+>tg20220722,23:59:59ERR:  TF date/time is more than a year!
+  ERR:  Bad command parameters!Out of range! 
+>tf  ERR:  Bad command parameters!Out of range! 
+>TF?
+TF **/**/**,**:**:** --- Time of First Ping (yr/mon/day,hour:min:sec)
+>TG?
+TG ****/**/**,**:**:** - Time of First Ping (CCYY/MM/DD,hh:mm:ss)
+>T?
+Available Commands:
+
+TB 00:00:00.00 --------- Time per Burst (hrs:min:sec.sec/100)
+TC 00000 --------------- Ensembles Per Burst (0-65535)
+TE 00:10:00.00 --------- Time per Ensemble (hrs:min:sec.sec/100)
+TF **/**/**,**:**:** --- Time of First Ping (yr/mon/day,hour:min:sec)
+TG ****/**/**,**:**:** - Time of First Ping (CCYY/MM/DD,hh:mm:ss)
+TP 00:02.00 ------------ Time per Ping (min:sec.sec/100)
+TS 60/07/22,22:57:03 --- Time Set (yr/mon/day,hour:min:sec)
+TT 2060/07/22,22:57:03 - Time Set (CCYY/MM/DD,hh:mm:ss)
+TX 00:00:00 ------------ Buffer Output Period: (hh:mm:ss)
+T? --------------------- Display Time Help
+
+>TS  ERR:  Bad command parameters!Out of range! 
+>  
+>ts 22/07/22,22:58:00
+>tg2022/07/22,23:59:59
+>ck?
+CK ----------------------- Keep Parameters as USER Defaults
+>ck
+[Parameters saved as USER defaults]
+>ps0
+  Instrument S/N:  1825
+       Frequency:  614400 HZ
+   Configuration:  4 BEAM, JANUS
+     Match Layer:  10
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  UP  
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients:
+              c3 = +1.762294E-13
+              c2 = +3.330826E-08
+              c1 = +1.389532E-01
+          Offset = -4.652679E+00
+
+Temp Sens Offset:  -0.13 degrees C
+
+    CPU Firmware:  51.40 [0]
+   Boot Code Ver:  Required:  1.16   Actual:  1.16
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   5
+
+Board Serial Number Data:
+   E4  00 00 02 00 20 C0  09 DSP727-2001-03F
+   0D  00 00 02 48 A7 98  09 REC727-1000-03A
+   7E  00 00 02 00 4D 0B  09 PIO727-3000-03C
+   97  00 00 02 00 3F BB  09 CPU727-2000-00H
+>
+===============
+
+[BREAK Wakeup A]
+WorkHorse Broadband ADCP Version 51.40
+Teledyne RD Instruments (c) 1996-2010
+All Rights Reserved.
+>ps0
+  Instrument S/N:  1825
+       Frequency:  614400 HZ
+   Configuration:  4 BEAM, JANUS
+     Match Layer:  10
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  UP  
+       Sensor(s):  HEADING  TILT 1  TILT 2  DEPTH  TEMPERATURE  PRESSURE
+Pressure Sens Coefficients:
+              c3 = +1.762294E-13
+              c2 = +3.330826E-08
+              c1 = +1.389532E-01
+          Offset = -4.652679E+00
+
+Temp Sens Offset:  -0.13 degrees C
+
+    CPU Firmware:  51.40 [0]
+   Boot Code Ver:  Required:  1.16   Actual:  1.16
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   5
+
+Board Serial Number Data:
+   E4  00 00 02 00 20 C0  09 DSP727-2001-03F
+   0D  00 00 02 48 A7 98  09 REC727-1000-03A
+   7E  00 00 02 00 4D 0B  09 PIO727-3000-03C
+   97  00 00 02 00 3F BB  09 CPU727-2000-00H
+>t?
+Available Commands:
+
+TB 00:00:00.00 --------- Time per Burst (hrs:min:sec.sec/100)
+TC 00000 --------------- Ensembles Per Burst (0-65535)
+TE 00:10:00.00 --------- Time per Ensemble (hrs:min:sec.sec/100)
+TF **/**/**,**:**:** --- Time of First Ping (yr/mon/day,hour:min:sec)
+TG ****/**/**,**:**:** - Time of First Ping (CCYY/MM/DD,hh:mm:ss)
+TP 00:02.00 ------------ Time per Ping (min:sec.sec/100)
+TS 22/07/23,00:28:13 --- Time Set (yr/mon/day,hour:min:sec)
+TT 2022/07/23,00:28:13 - Time Set (CCYY/MM/DD,hh:mm:ss)
+TX 00:00:00 ------------ Buffer Output Period: (hh:mm:ss)
+T? --------------------- Display Time Help
+
+>ts220723,00:29:10
+>t?
+Available Commands:
+
+TB 00:00:00.00 --------- Time per Burst (hrs:min:sec.sec/100)
+TC 00000 --------------- Ensembles Per Burst (0-65535)
+TE 00:10:00.00 --------- Time per Ensemble (hrs:min:sec.sec/100)
+TF **/**/**,**:**:** --- Time of First Ping (yr/mon/day,hour:min:sec)
+TG ****/**/**,**:**:** - Time of First Ping (CCYY/MM/DD,hh:mm:ss)
+TP 00:02.00 ------------ Time per Ping (min:sec.sec/100)
+TS 22/07/23,00:29:13 --- Time Set (yr/mon/day,hour:min:sec)
+TT 2022/07/23,00:29:13 - Time Set (CCYY/MM/DD,hh:mm:ss)
+TX 00:00:00 ------------ Buffer Output Period: (hh:mm:ss)
+T? --------------------- Display Time Help
+
+>tg 2022/07/23,00:40:00
+>t?
+Available Commands:
+
+TB 00:00:00.00 --------- Time per Burst (hrs:min:sec.sec/100)
+TC 00000 --------------- Ensembles Per Burst (0-65535)
+TE 00:10:00.00 --------- Time per Ensemble (hrs:min:sec.sec/100)
+TF 22/07/23,00:40:00 --- Time of First Ping (yr/mon/day,hour:min:sec)
+TG 2022/07/23,00:40:00 - Time of First Ping (CCYY/MM/DD,hh:mm:ss)
+TP 00:02.00 ------------ Time per Ping (min:sec.sec/100)
+TS 22/07/23,00:29:55 --- Time Set (yr/mon/day,hour:min:sec)
+TT 2022/07/23,00:29:55 - Time Set (CCYY/MM/DD,hh:mm:ss)
+TX 00:00:00 ------------ Buffer Output Period: (hh:mm:ss)
+T? --------------------- Display Time Help
+
+>ck
+[Parameters saved as USER defaults]
+>deploy?
+Deployment Commands:
+BP = 000 ----------------- Bottom Track Pings per Ensemble
+
+CF = 11101 --------------- Flow Ctrl (EnsCyc;PngCyc;Binry;Ser;Rec)
+CK ----------------------- Keep Parameters as USER Defaults
+CR # --------------------- Retrieve Parameters (0 = USER, 1 = FACTORY)
+CS ----------------------- Start Deployment
+
+EA = +00000 -------------- Heading Alignment (1/100 deg)
+EB = +00954 -------------- Heading Bias (1/100 deg)
+ED = 00475 --------------- Transducer Depth (0 - 65535 dm)
+ES = 35 ------------------ Salinity (0-40 pp thousand)
+EX = 11111 --------------- Coord Transform (Xform: Type,Tilts,3 Bm,Map)
+EZ = 1111101 ------------- Sensor Source (C,D,H,P,R,S,T)
+
+RE ----------------------- Recorder ErAsE
+RN ----------------------- Set Deployment Name
+
+TE = 00:10:00.00 --------- Time per Ensemble (hrs:min:sec.sec/100)
+TF = 22/07/23,00:40:00 --- Time of First Ping (yr/mon/day,hour:min:sec)
+TP = 00:02.00 ------------ Time per Ping (min:sec.sec/100)
+TS = 22/07/23,00:30:06 --- Time Set (yr/mon/day,hour:min:sec)
+
+WD = 111 100 000 --------- Data Out (Vel,Cor,Amp; PG,St,P0; P1,P2,P3)
+WF = 0088 ---------------- Blank After Transmit (cm)
+WN = 025 ----------------- Number of depth cells (1-128)
+WP = 00080 --------------- Pings per Ensemble (0-16384)
+WS = 0200 ---------------- Depth Cell Size (cm)
+WV = 175 ----------------- Mode 1 Ambiguity Vel (cm/s radial)
+
+>cs
