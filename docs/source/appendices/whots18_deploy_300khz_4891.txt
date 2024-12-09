@@ -1,0 +1,149 @@
+
+[BREAK Wakeup A]
+WorkHorse Broadband ADCP Version 50.40
+Teledyne RD Instruments (c) 1996-2010
+All Rights Reserved.
+>ps0
+  Instrument S/N:  4891
+       Frequency:  307200 HZ
+   Configuration:  4 BEAM, JANUS
+     Match Layer:  10
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  UP  
+       Sensor(s):  HEADING  TILT 1  TILT 2  TEMPERATURE
+Temp Sens Offset:  -0.23 degrees C
+
+    CPU Firmware:  50.40 [0]
+   Boot Code Ver:  Required:  1.16   Actual:  1.16
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   5
+
+Board Serial Number Data:
+   E2  00 00 03 7C 0B 00  09 REC727-1000-04E
+   63  00 00 03 87 A5 E4  09 CPU727-2000-00J
+   99  00 00 03 83 DB 8F  09 PIO727-3000-04C
+   09  00 00 03 40 91 CF  09 DSP727-2001-04G
+>ts 22/07/22,23:05:45
+>r?   
+Available Commands:
+
+RE --------------------- Recorder Erase
+RF --------------------- Recorder Space used/free (bytes)
+RN  WHT16 -------------- Set Deployment Name
+RR --------------------- Recorder diRectory
+RY --------------------- Upload Recorder Files to Host
+R? --------------------- Display Recorder Commands
+
+>rf
+RF = 69664768,186687488 --- Rec space used (bytes), free (bytes)
+
+>rr
+Recorder Directory:
+Volume serial number for device #1 is 206f-6241
+
+  WHT16000 000        69664768 07-06-21   2:52:36p r  a [    2]
+
+  Bytes used on device #1 = 69664768
+Total capacity   =  256352256 bytes
+Total bytes used =   69664768 bytes in 1 files
+Total bytes free =  186687488 bytes
+
+>re
+Must use 'RE ErAsE' or 're ErAsE' to erase recorder!
+
+Recorder not erased.
+
+>RE ErAsE  erasing...
+Recorder erased.
+
+>rr
+Recorder Directory:
+Volume serial number for device #1 is 206f-6241
+
+  No files found.
+
+  Bytes used on device #1 = 0
+Total capacity   =  256352256 bytes
+Total bytes used =          0 bytes in 0 files
+Total bytes free =  256352256 bytes
+
+>rrwht16
+Recorder Directory:
+Volume serial number for device #1 is 206f-6241
+
+  No files found.
+
+  Bytes used on device #1 = 0
+Total capacity   =  256352256 bytes
+Total bytes used =          0 bytes in 0 files
+Total bytes free =  256352256 bytes
+
+>cf11101
+>ps0
+  Instrument S/N:  4891
+       Frequency:  307200 HZ
+   Configuration:  4 BEAM, JANUS
+     Match Layer:  10
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  UP  
+       Sensor(s):  HEADING  TILT 1  TILT 2  TEMPERATURE
+Temp Sens Offset:  -0.23 degrees C
+
+    CPU Firmware:  50.40 [0]
+   Boot Code Ver:  Required:  1.16   Actual:  1.16
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   5
+
+Board Serial Number Data:
+   E2  00 00 03 7C 0B 00  09 REC727-1000-04E
+   63  00 00 03 87 A5 E4  09 CPU727-2000-00J
+   99  00 00 03 83 DB 8F  09 PIO727-3000-04C
+   09  00 00 03 40 91 CF  09 DSP727-2001-04G
+>cf11101
+>ea0
+>eb0954
+>ed1250
+>es35
+>ex11111
+>ez1111101
+>wa70
+>wb0
+>wd111100000
+>wf176
+>wn30
+>wp40
+>wv175
+>wl2,6
+>ws0400
+>te00:10:00.00
+>tp00:04:00
+>tg20220722,23:59:59
+>PS0
+  Instrument S/N:  4891
+       Frequency:  307200 HZ
+   Configuration:  4 BEAM, JANUS
+     Match Layer:  10
+      Beam Angle:  20 DEGREES
+    Beam Pattern:  CONVEX 
+     Orientation:  UP  
+       Sensor(s):  HEADING  TILT 1  TILT 2  TEMPERATURE
+Temp Sens Offset:  -0.23 degrees C
+
+    CPU Firmware:  50.40 [0]
+   Boot Code Ver:  Required:  1.16   Actual:  1.16
+    DEMOD #1 Ver:  ad48, Type:  1f
+    DEMOD #2 Ver:  ad48, Type:  1f
+    PWRTIMG  Ver:  85d3, Type:   5
+
+Board Serial Number Data:
+   E2  00 00 03 7C 0B 00  09 REC727-1000-04E
+   63  00 00 03 87 A5 E4  09 CPU727-2000-00J
+   99  00 00 03 83 DB 8F  09 PIO727-3000-04C
+   09  00 00 03 40 91 CF  09 DSP727-2001-04G
+>CK
+[Parameters saved as USER defaults]
+>
