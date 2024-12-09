@@ -82,7 +82,7 @@ their internal clock. To produce a spike in the ADCP data, each instrument’s
 transducer was rubbed gently by hand for 20 seconds ({numref}`table-9` , and
 {numref}`table-10`).
 
-```{figure} figures/tables/WHOTS18_Instrument_Deployment_Info.png
+```{figure} figures/tables/WHOTS18_Instrument_Deployment_Info.pdf
 :width: 1000%
 :align: center
 :name: mooring_subsurface
