@@ -12,6 +12,8 @@ external event times, pressure sensor drifts correction, temperature sensor
 stability, and conductivity calibration against CTD data from casts conducted
 near the mooring during HOT and WHOTS cruises. The detailed processing
 procedures are described in this section.
+Individual configurations for the MicroCATs on the WHOTS-18 mooring are
+detailed in {ref}`/appendices.md#whots-18-microcat-headers`.
 
 ```{table} WHOTS-18 MicroCAT temperature sensor calibration dates and sensor drift during deployments; *SN = Sea-Bird Serial Number; PDC = Pre-Deployment Calibration; PRC = Post-Recovery Calibration; TSA = Temperature Sensor's Annual Drift during WHOTS-18 ; N. depth = Nominal deployment depth*
 :class: sd-m-auto
