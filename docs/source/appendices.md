@@ -11,3 +11,7 @@
 ```{literalinclude} appendices/whots18_deploy_600khz_1825.txt
 ```
 
+## WHOTS-18 MicroCAT - Headers
+
+```{literalinclude} appendices/metadata_headers.txt
+```
