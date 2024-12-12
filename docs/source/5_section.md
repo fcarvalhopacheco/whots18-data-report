@@ -5,7 +5,7 @@
 Each moored MicroCAT temperature, conductivity, and pressure (when installed)
 was calibrated at Sea-Bird before their deployment and after their recovery on
 the dates shown in {numref}`table-14`. The internally-recorded data from each
-instrument were downloaded onboard the ship after the mooring recovery. The
+instrument were downloaded on board the ship after the mooring recovery. The
 nominally-calibrated data were plotted for a visual assessment of the data
 quality. The data processing included checking the internal clock data against
 external event times, pressure sensor drifts correction, temperature sensor
