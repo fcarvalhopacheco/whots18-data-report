@@ -1,5 +1,4 @@
-# Appendix
-
+# Appendix: Instrument Configurations and Specifications
 
 ## WHOTS-18 300 kHz - Serial 4891
 
