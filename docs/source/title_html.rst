@@ -43,7 +43,7 @@
 
 ---------
 
-**Acknowledgements**
+**Acknowledgments**
 
 - Many people participated in the WHOTS mooring deployment/recovery cruises
   See `Table 2.1 <https://whots-annual-report.readthedocs.io/projects/whots18-data-report/en/latest/2_section.html#table-1>`_
