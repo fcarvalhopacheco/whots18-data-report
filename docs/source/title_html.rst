@@ -81,4 +81,4 @@
   and 
   `OCE-2241005 <https://www.nsf.gov/awardsearch/showAward?AWD_ID=2241005>`_ to the University of Hawaii at Manoa for the Hawaii Ocean Time-series.
 
-- This is SOEST contribution number xXxXxXxX.
+- This is SOEST contribution number 11882.

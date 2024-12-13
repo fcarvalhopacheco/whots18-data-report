@@ -103,7 +103,7 @@ preferred-citation:
     post-code: 96822
   department: Department of Oceanography
   date-released: 2024-12-25
-  number: xxxxxx
+  number: 11882
   license: CC-BY-4.0
   url: http://whots18-data-report.readthedocs.io/
   doi: 10.5281/zenodo.14285350
@@ -119,7 +119,7 @@ preferred-citation:
     Oceanographic Institution, and by National Science Foundation grants
     OCE-0327513,OCE-0752606, OCE-0926766, OCE-1260164 , OCE-1756517 and
     OCE-2241005 to the University of Hawaii for the Hawaii Ocean
-    Time-series. This is SOEST contribution number XxXxXxXxX"
+    Time-series. This is SOEST contribution number 11882."
   identifiers:
     - type: doi
       value: "10.5281/zenodo.14285349"
