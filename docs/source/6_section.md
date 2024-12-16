@@ -214,10 +214,10 @@ Upper panels] Same as in {numref}`figure6.6`, but for station 52, cast
 ## Thermosalinograph Data
 
 Underway measurements of near-surface temperature and salinity from the
-thermosalinograph (TSG) system onboard the R/V Oscar Sette cruise are presented
+thermosalinograph (TSG) system on board the R/V Oscar Sette cruise are presented
 in {numref}`ac41thsl_final.png` and navigational data is shown in
 {numref}`ac41nav_final.png` for the WHOTS-18 cruise. TSG and navigational data
-during the WHOTS-19 cruise, onboard the R/V Oscar Sette, are presented in
+during the WHOTS-19 cruise, on board the R/V Oscar Sette, are presented in
 {numref}`ac42thsl_final.png` and {numref}`ac42nav_final.png`, respectively.
 
 ```{figure} figures/thermosal/ac41thsl_final.png

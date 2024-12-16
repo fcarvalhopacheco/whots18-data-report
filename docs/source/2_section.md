@@ -4,7 +4,7 @@
 
 The Woods Hole Oceanographic Institution Upper Ocean Processes Group (WHOI/UOP)
 , with the UH group's assistance, conducted the 18 deployment of the WHOTS
-mooring onboard the Oscar Elton Settle during the WHOTS-18 cruise between July
+mooring on board the Oscar Elton Settle during the WHOTS-18 cruise between July
 22 and July 27, 2022. The WHOTS-18 mooring was deployed at Station 52 on July
 24, 2022, 02:17 UTC at 22 40.002'N, 157 56.793'W, and the WHOTS-17 mooring were
 recovered on July 25, 2022. The scientific personnel that participated during

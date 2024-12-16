@@ -50,7 +50,7 @@ and shipboard ADCP data collected during these cruises are described in
 [Section V](https://whots-annual-report.readthedocs.io/projects/whots18-data-report/en/latest/5_section.html) 
 includes the processing procedures for the data collected by the moored 
 instruments: SeaCATs, MicroCATs, Moored ADCPs and VMCM. Plots of the resulting 
-data and preliminary analysis ar presented in [Section VI](https://whots-annual-report.readthedocs.io/projects/whots18-data-report/en/latest/6_section.html).
+data and preliminary analysis are presented in [Section VI](https://whots-annual-report.readthedocs.io/projects/whots18-data-report/en/latest/6_section.html).
 
 
 ## Citing
@@ -79,12 +79,12 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
   Institution, and by National Science Foundation grants
   OCE-0327513,OCE-0752606, OCE-0926766, OCE-1260164, OCE-1756517 and
   OCE-2241005 to the University of Hawaii for the Hawaii Ocean Time-series.
-  This is SOEST contribution number xXxXxX.}
+  This is SOEST contribution number 11882.}
 
 }
 ```
 
-## Acknowledgements
+## Acknowledgments
 
 - Many people participated in the WHOTS mooring deployment/recovery cruises
   See [Table 2.1](https://whots-annual-report.readthedocs.io/projects/whots18-data-report/en/latest/2_section.html#table-1)
@@ -122,7 +122,7 @@ Carvalho Pacheco, F., Santiago-Mandujano, F., Potemra, J. T., Plueddemann, A. J.
   and 
   [OCE-2241005](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2241005) to the University of Hawaii at Manoa for the Hawaii Ocean Time-series.
 
-- This is SOEST contribution number xxxxx.
+- This is SOEST contribution number 11882.
 
 ## Contact 
 - You can contact us by emailing <hotdata@hawaii.edu>
