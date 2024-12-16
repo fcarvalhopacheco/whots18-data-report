@@ -1,0 +1,399 @@
+# Metadata for Sensor Serial Number: 3634
+* Sea-Bird SBE37 Data File:
+* FileName = D:\WHOTS-18_mcat_recovery\w18__85m_3634_data.asc
+* Software Version 1.59
+* Temperature SN = 3634
+* Conductivity SN = 3634
+* System UpLoad Time = Jun 21 2023 05:37:43
+** WHOTS-18
+** 85m
+* ds
+* SBE37-SM V 2.6b  SERIAL NO. 3634    06-21-2023  05:36:24
+* not logging: received stop command
+* sample interval = 180 seconds
+* samplenumber = 159951, free = 73065
+* do not transmit real-time data
+* output salinity with each sample
+* do not output sound velocity with each sample
+* store time with each sample
+* number of samples to average = 4
+* reference pressure = 85.0 db
+* serial sync mode disabled
+* wait time after serial sync sampling = 30 seconds
+* internal pump not installed
+* temperature = 19.98 deg C
+
+
+* S>
+* SBE37-SM V 2.6b  3634
+* temperature:  13-nov-21
+*     TA0 = -4.900056e-05
+*     TA1 = 2.811162e-04
+*     TA2 = -2.863184e-06
+*     TA3 = 1.640679e-07
+* conductivity:  13-nov-21
+*     G = -1.019645e+00
+*     H = 1.467542e-01
+*     I = -1.326342e-04
+*     J = 3.543132e-05
+*     CPCOR = -9.570000e-08
+*     CTCOR = 3.250000e-06
+*     WBOTC = -1.225817e-05
+* rtc:  13-nov-21
+*     RTCA0 = 9.999831e-01
+*     RTCA1 = 1.739713e-06
+*     RTCA2 = -3.278574e-08
+
+
+* S>
+*END*
+
+# Metadata for Sensor Serial Number: 3670
+* Sea-Bird SBE37 Data File:
+* FileName = D:\WHOTS-18_mcat_recovery\w18_95m_3870_data.asc
+* Software Version 1.59
+* Temperature SN = 3670
+* Conductivity SN = 3670
+* System UpLoad Time = Jun 20 2023 19:34:55
+** WHOTS-18
+** 95m
+* ds
+* SBE37-SM V 2.6b  SERIAL NO. 3670    20 Jun 2023  19:33:36
+* not logging: received stop command
+* sample interval = 240 seconds
+* samplenumber = 119813, free = 70837
+* do not transmit real-time data
+* do not output salinity with each sample
+* do not output sound velocity with each sample
+* store time with each sample
+* number of samples to average = 4
+* serial sync mode disabled
+* wait time after serial sync sampling = 30 seconds
+* internal pump not installed
+* temperature = 18.83 deg C
+
+
+* S>
+* SBE37-SM V 2.6b  3670
+* temperature:  19-nov-21
+*     TA0 = -2.217529e-04
+*     TA1 = 3.125302e-04
+*     TA2 = -4.715840e-06
+*     TA3 = 2.118395e-07
+* conductivity:  19-nov-21
+*     G = -1.012115e+00
+*     H = 1.231429e-01
+*     I = -9.476538e-05
+*     J = 2.603631e-05
+*     CPCOR = -9.570000e-08
+*     CTCOR = 3.250000e-06
+*     WBOTC = -8.688073e-06
+* pressure S/N 5701, range = 1450 psia:  03-nov-21
+*     PA0 = -5.344184e-02
+*     PA1 = 6.860336e-02
+*     PA2 = -4.245815e-09
+*     PTCA0 = -2.001202e+02
+*     PTCA1 = -6.639637e-02
+*     PTCA2 = 1.408200e-03
+*     PTCSB0 = 2.491775e+01
+*     PTCSB1 = -6.500000e-04
+*     PTCSB2 = 0.000000e+00
+*     POFFSET = -1.230000e+00
+* rtc:  19-nov-21
+*     RTCA0 = 9.999888e-01
+*     RTCA1 = 1.835673e-06
+*     RTCA2 = -3.505132e-08
+
+
+* S>
+*END*
+
+# Metadata for Sensor Serial Number: 6889
+* Sea-Bird SBE37SM-RS232  Data File:
+* FileName = C:\Users\Jefrey\Documents\WHOTS-18_mcat_recovery\w18_105m_6889_data.hex
+* Software version SeatermV2 2.8.0.119
+* Temperature SN = 6889
+* Conductivity SN = 6889
+* System UpLoad Time = Jun 21 2023 06:28:47
+* sample interval = 75 seconds
+* <ApplicationData>
+* <Seaterm232>
+* <SoftwareVersion>2.8.0.119</SoftwareVersion>
+* <BuildDate>07-Nov-2018</BuildDate>
+* </Seaterm232>
+* </ApplicationData>
+* <InstrumentState>
+* <HardwareData DeviceType='SBE37SM-RS232' SerialNumber='03706889'>
+*
+*    <Manufacturer>Sea-Bird Electronics, Inc.</Manufacturer>
+*
+*    <FirmwareVersion>3.1</FirmwareVersion>
+*
+*    <FirmwareDate>Jan 20 2012 17:33:01</FirmwareDate>
+*
+*    <PCBAssembly>41647</PCBAssembly>
+*
+*    <PCBAssembly>41610B</PCBAssembly>
+*
+*    <PCBAssembly>41611D</PCBAssembly>
+*
+*    <MfgDate>13 Mar 2009</MfgDate>
+*
+*    <FirmwareLoader>SBE 37 FirmwareLoader V 1.0</FirmwareLoader>
+*
+*    <InternalSensors>
+*
+*       <Sensor id='Temperature'>
+*
+*          <type>temperature-1</type>
+*
+*          <SerialNumber>03706889</SerialNumber>
+*
+*       </Sensor>
+*
+*       <Sensor id='Conductivity'>
+*
+*          <type>conductivity-1</type>
+*
+*          <SerialNumber>03706889</SerialNumber>
+*
+*       </Sensor>
+*
+*       <Sensor id='Pressure'>
+*
+*          <type>strain-0</type>
+*
+*          <SerialNumber>2651321</SerialNumber>
+*
+*       </Sensor>
+*
+*    </InternalSensors>
+*
+* </HardwareData>
+* <StatusData DeviceType='SBE37SM-RS232' SerialNumber='03706889'>
+*
+*    <DateTime>2023-06-21T03:56:07</DateTime>
+*
+*    <EventSummary numEvents='1'/>
+*
+*    <Power>
+*
+*       <vMain> 6.85</vMain>
+*
+*       <vLith> 3.14</vLith>
+*
+*    </Power>
+*
+*    <MemorySummary>
+*
+*       <Bytes>5756400</Bytes>
+*
+*       <Samples>383760</Samples>
+*
+*       <SamplesFree>175480</SamplesFree>
+*
+*       <SampleLength>15</SampleLength>
+*
+*    </MemorySummary>
+*
+*    <AutonomousSampling>no, stop command</AutonomousSampling>
+*
+* </StatusData>
+* <ConfigurationData DeviceType='SBE37SM-RS232' SerialNumber='03706889'>
+*
+*    <PressureInstalled>yes</PressureInstalled>
+*
+*    <PumpInstalled>no</PumpInstalled>
+*
+*    <SampleDataFormat>converted engineering</SampleDataFormat>
+*
+*    <OutputSalinity>yes</OutputSalinity>
+*
+*    <OutputSV>no</OutputSV>
+*
+*    <TxRealTime>no</TxRealTime>
+*
+*    <SampleInterval>75</SampleInterval>
+*
+*    <SyncMode>no</SyncMode>
+*
+* </ConfigurationData>
+* <CalibrationCoefficients DeviceType='SBE37SM-RS232' SerialNumber='03706889'>
+*
+*    <Calibration format='TEMP1' id='Temperature'>
+*
+*       <SerialNum>03706889</SerialNum>
+*
+*       <CalDate>10-Nov-21</CalDate>
+*
+*       <A0>1.016718e-04</A0>
+*
+*       <A1>2.610141e-04</A1>
+*
+*       <A2>-1.424935e-06</A2>
+*
+*       <A3>1.246406e-07</A3>
+*
+*    </Calibration>
+*
+*    <Calibration format='WBCOND0' id='Conductivity'>
+*
+*       <SerialNum>03706889</SerialNum>
+*
+*       <CalDate>10-Nov-21</CalDate>
+*
+*       <G>-9.999722e-01</G>
+*
+*       <H>1.501833e-01</H>
+*
+*       <I>-2.695119e-04</I>
+*
+*       <J>4.302018e-05</J>
+*
+*       <PCOR>-9.570000e-08</PCOR>
+*
+*       <TCOR>3.250000e-06</TCOR>
+*
+*       <WBOTC>1.290011e-07</WBOTC>
+*
+*    </Calibration>
+*
+*    <Calibration format='STRAIN0' id='Pressure'>
+*
+*       <SerialNum>2651321</SerialNum>
+*
+*       <CalDate>02-Nov-21</CalDate>
+*
+*       <PA0>3.430363e-01</PA0>
+*
+*       <PA1>5.078449e-03</PA1>
+*
+*       <PA2>-1.305139e-11</PA2>
+*
+*       <PTCA0>5.247892e+05</PTCA0>
+*
+*       <PTCA1>2.344197e+00</PTCA1>
+*
+*       <PTCA2>3.608461e-03</PTCA2>
+*
+*       <PTCB0>2.627775e+01</PTCB0>
+*
+*       <PTCB1>-1.250000e-03</PTCB1>
+*
+*       <PTCB2>0.000000e+00</PTCB2>
+*
+*       <PTEMPA0>-6.960694e+01</PTEMPA0>
+*
+*       <PTEMPA1>5.057417e-02</PTEMPA1>
+*
+*       <PTEMPA2>-4.275673e-07</PTEMPA2>
+*
+*       <POFFSET>7.999999e-02</POFFSET>
+*
+*       <PRANGE>1.450000e+03</PRANGE>
+*
+*    </Calibration>
+*
+* </CalibrationCoefficients>
+* <EventCounters DeviceType='SBE37SM-RS232' SerialNumber='03706889'>
+*
+*    <EventSummary numEvents='1'/>
+*
+*    <Event type='PON reset' count='1'/>
+*
+* </EventCounters></InstrumentState>
+* <UserHeaderInsert>
+* <![CDATA[
+** WHOTS18 WHOTS18
+** 55m 105m
+* ]]>
+* </UserHeaderInsert>
+# nquan = 5
+# nvalues = 383760
+# units = specified
+# name 0 = cond0S/m: Conductivity [S/m]
+# name 1 = tv290C: Temperature [ITS-90, deg C]
+# name 2 = prdM: Pressure, Strain Gauge [db]
+# name 3 = timeJV2: Time, Instrument [julian days]
+# name 4 = flag:  0.000e+00
+# span 0 =   0.000014,   5.459091
+# span 1 =     0.9936,    26.4614
+# span 2 =     -0.594,    108.979
+# span 3 = 204.000000, 537.124132
+# span 4 = 0.0000e+00, 0.0000e+00
+# interval = seconds: 75
+# start_time = Jul 23 2022 00:00:00 [Instrument's time stamp, first data scan]
+# bad_flag = -9.990e-29
+# <Sensors count="3" >
+#   <sensor Channel="1" >
+#     <!-- Count, Temperature -->
+#     <TemperatureSensor SensorID="58" >
+#       <SerialNumber>6889</SerialNumber>
+#       <CalibrationDate>10-Nov-21</CalibrationDate>
+#       <A0>1.01671800e-004</A0>
+#       <A1>2.61014100e-004</A1>
+#       <A2>-1.42493500e-006</A2>
+#       <A3>1.24640600e-007</A3>
+#       <Slope>1.00000000</Slope>
+#       <Offset>0.0000</Offset>
+#     </TemperatureSensor>
+#   </sensor>
+#   <sensor Channel="2" >
+#     <!-- Frequency 0, Conductivity -->
+#     <ConductivitySensor SensorID="3" >
+#       <SerialNumber>6889</SerialNumber>
+#       <CalibrationDate>10-Nov-21</CalibrationDate>
+#       <UseG_J>1</UseG_J>
+#       <!-- Cell const and series R are applicable only for wide range sensors. -->
+#       <SeriesR>0.0000</SeriesR>
+#       <CellConst>2000.0000</CellConst>
+#       <ConductivityType>1</ConductivityType>
+#       <Coefficients equation="0" >
+#         <A>0.00000000e+000</A>
+#         <B>0.00000000e+000</B>
+#         <C>0.00000000e+000</C>
+#         <D>0.00000000e+000</D>
+#         <M>0.0</M>
+#         <CPcor>-9.57000000e-008</CPcor>
+#       </Coefficients>
+#       <Coefficients equation="1" >
+#         <G>-9.99972200e-001</G>
+#         <H>1.50183300e-001</H>
+#         <I>-2.69511900e-004</I>
+#         <J>4.30201800e-005</J>
+#         <CPcor>-9.57000000e-008</CPcor>
+#         <CTcor>3.2500e-006</CTcor>
+#         <!-- WBOTC not applicable unless ConductivityType = 1. -->
+#         <WBOTC>1.29001100e-007</WBOTC>
+#       </Coefficients>
+#       <Slope>1.00000000</Slope>
+#       <Offset>0.00000</Offset>
+#     </ConductivitySensor>
+#   </sensor>
+#   <sensor Channel="3" >
+#     <!-- Count, Pressure, Strain Gauge -->
+#     <PressureSensor SensorID="46" >
+#       <SerialNumber>2651321</SerialNumber>
+#       <CalibrationDate>02-Nov-21</CalibrationDate>
+#       <PA0>3.43036300e-001</PA0>
+#       <PA1>5.07844900e-003</PA1>
+#       <PA2>-1.30513900e-011</PA2>
+#       <PTEMPA0>-6.96069400e+001</PTEMPA0>
+#       <PTEMPA1>5.05741700e-002</PTEMPA1>
+#       <PTEMPA2>-4.27567300e-007</PTEMPA2>
+#       <PTCA0>5.24789200e+005</PTCA0>
+#       <PTCA1>2.34419700e+000</PTCA1>
+#       <PTCA2>3.60846100e-003</PTCA2>
+#       <PTCB0>2.62777500e+001</PTCB0>
+#       <PTCB1>-1.25000000e-003</PTCB1>
+#       <PTCB2>0.00000000e+000</PTCB2>
+#       <Offset>0.000000</Offset>
+#     </PressureSensor>
+#   </sensor>
+# </Sensors>
+# datcnv_date = Jun 22 2023 14:36:18, 7.26.7.129 [datcnv_vars = 4]
+# datcnv_in = C:\Users\santi\Documents\Work\whots\whots18_mooring\mcat_data\w18_105m_6889_data.hex C:\Users\santi\Documents\Work\whots\whots18_mooring\mcat_data\w18_105m_6889_data.xmlcon
+# datcnv_skipover = 0
+# file_type = ascii
+*END*
+

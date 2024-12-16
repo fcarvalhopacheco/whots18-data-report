@@ -12,8 +12,27 @@
 
 ## WHOTS-18 MicroCAT - Headers
 
+
 ```{literalinclude} appendices/metadata_headers_part1.txt
 ```
 
 ```{literalinclude} appendices/metadata_headers_part2.txt
+```
+
+```{literalinclude} appendices/metadata_headers_part3.txt
+```
+
+```{literalinclude} appendices/metadata_headers_part4.txt
+```
+
+```{literalinclude} appendices/metadata_headers_part5.txt
+```
+
+```{literalinclude} appendices/metadata_headers_part6.txt
+```
+
+```{literalinclude} appendices/metadata_headers_part7.txt
+```
+
+```{literalinclude} appendices/metadata_headers_part8.txt
 ```
