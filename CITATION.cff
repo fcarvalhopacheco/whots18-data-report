@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "Hydrographic Observations at the Woods Hole Oceanographic Institution Hawaii Ocean Time-Series Site (WHOTS): 2022 - 2023, Data Report #18"
 message: "If you use this report, please cite it using the metadata from this file."
-date-released: 2024-11-25
+date-released: 2024-11-27
 authors:
   - given-names: Fernando
     family-names: Carvalho Pacheco
@@ -102,7 +102,7 @@ preferred-citation:
     country: US
     post-code: 96822
   department: Department of Oceanography
-  date-released: 2024-12-25
+  date-released: 2024-12-27
   number: 11882
   license: CC-BY-4.0
   url: http://whots18-data-report.readthedocs.io/
